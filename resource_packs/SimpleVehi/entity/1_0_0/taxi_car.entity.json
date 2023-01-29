@@ -1,0 +1,31 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "aspire:taxi",
+            "materials": {
+                "default": "aspire"
+            },
+            "textures": {
+                "yellow": "textures/entity/taxi",
+				"white": "textures/entity/taxi/taxi_white"
+            },
+            "geometry": {
+                "default": "geometry.taxi"
+            },
+            "animations": {
+                "move": "animation.vehicles.move"
+            },
+            "animation_controllers": [
+                { 
+				    "move": "controller.animation.vehicles.move"
+				}
+            ],
+            "render_controllers": [ "controller.render.taxi" ],
+            "spawn_egg": {
+                "texture": "vehicles",
+                "texture_index": 14
+            }
+        }
+    }
+}

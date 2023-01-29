@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:plane",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/plane"
+			},
+			"geometry": {
+				"default": "geometry.plane"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 23
+			},
+			"render_controllers": [
+				"controller.render.corolla"
+			]
+		}
+	}
+}

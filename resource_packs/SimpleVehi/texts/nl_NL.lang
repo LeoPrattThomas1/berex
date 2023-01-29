@@ -1,0 +1,152 @@
+##bridge-file-version: #20
+##### Comments can be added anywhere on a valid line by starting with '##'
+##
+## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
+## comment on the same line, use TABs.
+accessibility.disableTTS=Text To Speech disabled
+accessibility.enableTTS=Text To Speech enabled
+
+## Translator note:
+## This section of phrases will be given audibly to the user using text to speech
+//Designed by RMPlaysMC YT Studios Team
+
+////1.0.0
+entity.aspire:car.name=Car 
+entity.aspire:corolla.name=Toyota Corolla 
+entity.aspire:taxi.name=Taxi 
+entity.aspire:ambulance.name=Ambulance
+entity.aspire:apv.name=AUV Car
+entity.aspire:bus.name=	Bus
+entity.aspire:bus_2.name=Shuttle Bus
+entity.aspire:truck.name=Truck
+entity.aspire:ref_truck.name=Cooler Truck 
+entity.aspire:mini_bus.name=Mini Bus
+entity.aspire:car4x4_1.name=Off Road Car
+entity.aspire:police_car.name=Police Car
+entity.aspire:speedboat.name=Speed Boat
+entity.aspire:fire_truck.name=Fire Truck
+entity.aspire:helicopter.name=Helicopter
+entity.aspire:ford_mustang.name=Ford Mustang[Red]
+entity.aspire:motor_bike.name=MotorBike
+entity.aspire:limmo.name=Limousine
+entity.aspire:taxi.name=Taxi
+entity.aspire:pajero.name=Mitsubishi Pajero
+entity.aspire:c_sled.name=Christmas Sled
+entity.aspire:tesla_truck.name=Tesla Truck
+entity.aspire:travis.name=Isuzu Travis
+entity.aspire:jeep_ph.name=Traditional Jeep Philippines by RMPlaysMC YT
+entity.aspire:hoverboard.name=Hoverboard
+entity.aspire:tractor.name=Tractor
+entity.aspire:plane.name=Plane
+entity.aspire:car_lowrider.name=Lowrider
+entity.aspire:ford_mustang_blue.name=Ford Mustang[Blue]
+entity.aspire:ae86.name=Toyota AE86
+entity.aspire:pick_up_truck.name=Pick Up Truck
+entity.aspire:tank.name=Tank
+entity.aspire:van.name=Van
+entity.aspire:volt_bike.name=Volt Bike
+entity.aspire:ev_4.name=Honda Ev 4
+entity.aspire:bike.name=Bike
+entity.aspire:modern_jeep_ph.name=Modern Jeep Philippines by RMPlaysMC YT
+entity.aspire:ob_van.name=Ob Van
+///1.1.0-Pre-1
+entity.aspire:volkswagen_beetle.name=Volkswagen Beetle
+entity.aspire:opel_corsa.name=Opel Corsa
+entity.aspire:opel_astral.name=Opel Astral
+///1.1.0-Pre-2
+entity.aspire:honda_accord_2019.name=Honda Accord 2019
+entity.aspire:cadillac_dts_2010.name=Cadillac Dts 2010
+entity.aspire:ice_cream_truck.name=Ice Cream Truck
+
+///1.0.0
+item.spawn_egg.entity.aspire:ford_mustang.name=Ford Mustang
+item.spawn_egg.entity.aspire:corolla.name=Toyota Corolla 
+item.spawn_egg.entity.aspire:bus_2.name=Shuttle Bus
+item.spawn_egg.entity.aspire:truck.name=Truck
+item.spawn_egg.entity.aspire:limmo.name=Limousine
+item.spawn_egg.entity.aspire:car.name=Car
+item.spawn_egg.entity.aspire:taxi.name=Taxi
+item.spawn_egg.entity.aspire:ambulance.name=Ambulance
+item.spawn_egg.entity.aspire:bus.name=Bus
+item.spawn_egg.entity.aspire:car4x4_1.name=Off Road Car
+item.spawn_egg.entity.aspire:apv.name=AUV Car
+item.spawn_egg.entity.aspire:police_car.name=Police Car
+item.spawn_egg.entity.aspire:mini_bus.name=Mini Bus
+item.spawn_egg.entity.aspire:fire_truck.name=Fire Truck
+item.spawn_egg.entity.aspire:helicopter.name=Helicopter
+item.spawn_egg.entity.aspire:speedboat.name=Speed Boat
+item.spawn_egg.entity.aspire:motor_bike.name=MotorBike
+item.spawn_egg.entity.aspire:pajero.name=Mitsubishi Pajero
+item.spawn_egg.entity.aspire:c_sled.name=Christmas Sled
+item.spawn_egg.entity.aspire:travis.name=Isuzu Travis
+item.spawn_egg.entity.aspire:jeep_ph.name=Jeep Philippines Model by RMPlaysMC YT
+item.spawn_egg.entity.aspire:hoverboard.name=Hoverboard
+item.spawn_egg.entity.aspire:tesla_truck.name=Tesla Truck
+item.spawn_egg.entity.aspire:tractor.name=Tractor
+item.spawn_egg.entity.aspire:plane.name=Plane
+item.spawn_egg.entity.aspire:car_lowrider.name=Lowrider
+item.spawn_egg.entity.aspire:ford_mustang_blue.name=Ford Mustang [Blue]
+item.spawn_egg.entity.aspire:ae86.name=Toyota AE86
+item.spawn_egg.entity.aspire:pick_up_truck.name=Pick Up Truck
+item.spawn_egg.entity.aspire:van.name=Van
+item.spawn_egg.entity.aspire:volt_bike.name=Volt Bike
+item.spawn_egg.entity.aspire:ev_4.name=Ev 4
+item.spawn_egg.entity.aspire:bike.name=Bike
+item.spawn_egg.entity.aspire:modern_jeep_ph.name=Modern Jeep Philippines by RMPlaysMC YT
+item.spawn_egg.entity.aspire:ob_van.name=Ob Van
+item.spawn_egg.entity.aspire:tank.name=Tank
+///1.1.0-Pre-1
+item.spawn_egg.entity.aspire:volkswagen_beetle.name=Volkswagen Beetle
+item.spawn_egg.entity.aspire:opel_corsa.name=Opel Corsa
+item.spawn_egg.entity.aspire:opel_astral.name=Opel Astral
+///1.1.0-Pre-2
+item.spawn_egg.entity.aspire:honda_accord_2019.name=Honda Accord 2019
+item.spawn_egg.entity.aspire:cadillac_dts_2010.name=Cadillac Dts 2010
+item.spawn_egg.entity.aspire:ice_cream_truck.name=Ice Cream Truck
+
+action.hint.exit.unknown=Use saddle so drive and jump to exit
+action.hint.exit.aspire:pajero=Use saddle so drive and jump to exit
+action.hint.exit.aspire:truck=Use saddle so drive and jump to exit
+action.hint.exit.aspire:car=Use saddle so drive and jump to exit
+action.hint.exit.aspire:car4x4_1=Use saddle so drive and jump to exit
+action.hint.exit.aspire:police_car=Use saddle so drive and jump to exit
+action.hint.exit.aspire:bus=Use saddle so drive and jump to exit
+action.hint.exit.aspire:bus_2=Use saddle so drive and jump to exit
+action.hint.exit.aspire:mini_bus=Use saddle so drive and jump to exit
+action.hint.exit.aspire:limmo=Use saddle so drive and jump to exit
+action.hint.exit.aspire:taxi=Use saddle so drive and jump to exit
+action.hint.exit.aspire:motor_bike=Use saddle so drive and jump to exit
+action.hint.exit.aspire:corolla=Use saddle so drive and jump to exit
+action.hint.exit.aspire:fire_truck=Use saddle so drive and jump to exit
+action.hint.exit.aspire:helicopter=Use saddle so drive and jump to exit
+action.hint.exit.aspire:speedboat=Just jump to exit
+action.hint.exit.aspire:truck=Use saddle so drive and jump to exit
+action.hint.exit.aspire:apv=Use saddle so drive and jump to exit
+action.hint.exit.aspire:c_sled=Use saddle so drive and jump to exit
+action.hint.exit.aspire:tesla_truck=Use saddle so drive and jump to exit
+action.hint.exit.aspire:travis=Use saddle so drive and jump to exit
+action.hint.exit.aspire:hoverboard=Use saddle so drive and jump to exit
+action.hint.exit.aspire:jeep_ph=Use saddle so drive and jump to exit
+action.hint.exit.aspire:tractor=Use saddle so drive and jump to exit
+action.hint.exit.aspire:plane=Use saddle so drive and jump to exit
+action.hint.exit.aspire:car_lowrider=Use saddle so drive and jump to exit
+action.hint.exit.aspire:ford_mustang_blue=Use saddle so drive and jump to exit
+action.hint.exit.aspire:ae86=Use saddle so drive and jump to exit
+action.hint.exit.aspire:pick_up_truck=Use saddle so drive and jump to exit
+action.hint.exit.aspire:van=Use saddle so drive and jump to exit
+action.hint.exit.aspire:volt_bike=Use saddle so drive and jump to exit
+action.hint.exit.aspire:ev_4=Use saddle so drive and jump to exit
+action.hint.exit.aspire:bike=Use saddle so drive and jump to exit
+action.hint.exit.aspire:modern_jeep_ph=Use saddle so drive and jump to exit
+action.hint.exit.aspire:ob_van=Use saddle so drive and jump to exit
+///1.1.0-Pre-1
+action.hint.exit.aspire:volkswagen_beetle=Use saddle so drive and jump to exit
+action.hint.exit.aspire:opel_astral=Use saddle so drive and jump to exit
+action.hint.exit.aspire:opel_corsa=Use saddle so drive and jump to exit
+///1.1.0-Pre-1
+action.hint.exit.aspire:honda_accord_2019=Use saddle so drive and jump to exit
+action.hint.exit.aspire:cadillac_dts_2010=Use saddle so drive and jump to exit
+action.hint.exit.aspire:ice_cream_truck=Use saddle so drive and jump to exit
+
+item.rmplaysmc:tuner.name=Tuner
+item.rmplaysmc:tuner2.name=Tuner

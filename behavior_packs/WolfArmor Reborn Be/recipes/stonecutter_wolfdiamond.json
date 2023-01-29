@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "add:wolfdiamondstonecutter"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_block",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "add:wolfarmordiamond",
+      "data": 0,
+      "count": 1
+    }
+  } 
+}

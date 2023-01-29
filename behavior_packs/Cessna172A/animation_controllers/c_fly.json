@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.c_fly": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"fly": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function c_fly",
+						"/tag @s add rider",
+						"/playsound vehicle.helicopter",
+						"/effect @p[r=2] slow_falling 1 0 true"
+					]
+				},
+				"fly": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function c_fly",
+						"/tag @s add rider",
+						"/playsound vehicle.helicopter",
+						"/effect @p[r=2] slow_falling 1 0 true"
+					]
+				}
+			}
+		}
+	}
+}

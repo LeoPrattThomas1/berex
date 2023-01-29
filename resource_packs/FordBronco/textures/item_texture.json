@@ -1,0 +1,11 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"lebronco_item": {
+			"textures": [
+				"textures/items/lebronco/lebronco"
+			]
+		}
+	}
+}

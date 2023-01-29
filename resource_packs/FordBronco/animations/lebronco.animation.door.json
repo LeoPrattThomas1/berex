@@ -1,0 +1,96 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.lebronco.turning": {
+			"loop": true,
+			"bones": {
+				"steeringwheel": {
+					"rotation": [0, 0, "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*1"]
+				},
+				"wheel1": {
+					"rotation": [0, "Math.max(-26, Math.min(26,query.yaw_speed * 0.5))*1", 0]
+				},
+				"wheel2": {
+					"rotation": [0, "Math.max(-26, Math.min(26,query.yaw_speed * 0.5))*1", 0]
+				},
+				"car": {
+					"rotation": ["query.vertical_speed * 1", 0, 0]
+				}
+			}
+		},
+		"animation.lebronco.drive": {
+			"loop": true,
+			"animation_length": 0.1667,
+			"bones": {
+				"wheel1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"wheel2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"wheel3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"wheel4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				}
+
+			}
+		},
+		"animation.lebronco.door": {
+			"loop": true,
+			"bones": {
+				"leftdoor": {
+					"rotation": [0, -45, 0]
+				},
+				"rightdoor": {
+					"rotation": [0, 45, 0]
+				}
+			}
+		},
+		"animation.lebronco.open": {
+			"bones": {
+				"leftdoor": {
+					"rotation": {
+						"0.0": [0, -45, 0],
+						"0.56": [0, 0, 0]
+					}
+				},
+				"rightdoor": {
+					"rotation": {
+						"0.0": [0, 45, 0],
+						"0.56": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.lebronco.close": {
+			"bones": {
+				"leftdoor": {
+					"rotation": {
+						"0.0": [0, 45, 0],
+						"0.56": [0, 0, 0]
+					}
+				},
+				"rightdoor": {
+					"rotation": {
+						"0.0": [0, -45, 0],
+						"0.56": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

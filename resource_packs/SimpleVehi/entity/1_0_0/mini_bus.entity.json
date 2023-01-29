@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "aspire:mini_bus",
+      "materials": {"default": "witch"},
+      "textures": {"default": "textures/entity/mini_bus"},
+      "geometry": {"default": "geometry.mini_bus"},
+      "spawn_egg": {"texture": "vehicles","texture_index": 9},
+      "animations": {"move": "animation.vehicles.move"},
+      "animation_controllers": [{ 
+        "move": "controller.animation.vehicles.move"}],
+      "render_controllers":["controller.render.mini_bus"]
+    }
+  }
+}

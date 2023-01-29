@@ -1,0 +1,16 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.q12s.general" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						"turn",
+						"normal"
+					]
+				}
+			}
+		}
+	}
+}

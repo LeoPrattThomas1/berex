@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.volkswagen_beetle": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.yellow",
+						"Texture.red",
+						"Texture.green",
+						"Texture.blue",
+						"Texture.white"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.skins[query.variant]"
+			]
+		}
+	}
+}

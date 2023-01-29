@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:ford_mustang_blue",
+			"materials": {
+				"default": "witch"
+			},
+			"textures": {
+				"blue": "textures/entity/mustang",
+				"red": "textures/entity/mustang/mustang_red"
+			},
+			"geometry": {
+				"default": "geometry.mustang"
+			},
+			"animations": {
+				"move": "animation.vehicles.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.mustang"
+			],
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 11
+			}
+		}
+	}
+}

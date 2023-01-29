@@ -1,0 +1,12 @@
+//bridge-file-version: #13
+{
+	"resource_pack_name": {},
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"q12s": {
+			"textures": [
+				"textures/items/q12s"
+			]
+		}
+	}
+}

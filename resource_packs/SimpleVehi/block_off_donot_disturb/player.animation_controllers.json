@@ -1,0 +1,75 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.player.riding.volt_bike": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "driving": "query.is_riding && query.variant == 1"
+            },
+            {
+              "on_ground": "!query.variant == 1"
+            }
+          ]
+        },
+        "driving": {
+          "animations": [ "riding.volt_bike" ],
+          "transitions": [
+            {
+              "on_ground": "!query.is_riding"
+            },
+            {
+              "stop_driving": "query.is_riding && query.variant != 1"
+            }
+          ]
+        },
+        "stop_driving": {
+          "animations": [ "riding.volt_bike" ],
+          "blend_transition": 0.3,
+          "transitions": [
+            {
+              "on_ground": "(1.0)"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.player.riding.hoverboard": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "driving": "query.is_riding && query.variant == 2"
+            },
+            {
+              "on_ground": "!query.variant == 2"
+            }
+          ]
+        },
+        "driving": {
+          "animations": [ "riding.hoverboard" ],
+          "transitions": [
+            {
+              "on_ground": "!query.is_riding"
+            },
+            {
+              "stop_driving": "query.is_riding && query.variant != 2"
+            }
+          ]
+        },
+        "stop_driving": {
+          "animations": [ "riding.hoverboard" ],
+          "blend_transition": 0.3,
+          "transitions": [
+            {
+              "on_ground": "(1.0)"
+            }
+          ]
+        }
+      }
+    }	
+  }
+}

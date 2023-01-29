@@ -1,0 +1,21 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hoverboard": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.blue",
+						"Texture.green",
+						"Texture.orange",
+						"Texture.red",
+						"Texture.yellow"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": [ "Array.skins[query.variant]" ]
+        }
+    }
+}

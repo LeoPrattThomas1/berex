@@ -1,0 +1,20 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.aquatopia_x": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"body*": "Material.default"
+				},
+				{
+					"lights*": "Material.lights"
+				}
+			],
+			"textures": [
+				"texture.default"
+			]
+		}
+	}
+}

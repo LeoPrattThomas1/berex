@@ -1,0 +1,33 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:pick_up_truck",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/pick_up_truck"
+			},
+			"geometry": {
+				"default": "geometry.pick_up_truck"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 27
+			},
+			"animations": {
+				"move": "animation.ambulance.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.pick_up_truck"
+			]
+		}
+	}
+}

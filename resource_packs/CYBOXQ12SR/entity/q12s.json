@@ -1,0 +1,72 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "car:q12s",
+			"materials": {
+				"default": "blaze_body"
+			},
+			"textures": {
+				"default": "textures/entity/q12s/q12s_undyed",			
+				"undyed": "textures/entity/q12s/q12s_undyed",
+				"white": "textures/entity/q12s/q12s_white",
+				"orange": "textures/entity/q12s/q12s_orange",
+				"magenta": "textures/entity/q12s/q12s_magenta",
+				"light_blue": "textures/entity/q12s/q12s_light_blue",
+				"yellow": "textures/entity/q12s/q12s_yellow",
+				"lime": "textures/entity/q12s/q12s_lime",
+				"pink": "textures/entity/q12s/q12s_pink",
+				"gray": "textures/entity/q12s/q12s_gray",
+				"silver": "textures/entity/q12s/q12s_silver",
+				"cyan": "textures/entity/q12s/q12s_cyan",
+				"purple": "textures/entity/q12s/q12s_purple",
+				"blue": "textures/entity/q12s/q12s_blue",
+				"brown": "textures/entity/q12s/q12s_brown",
+				"green": "textures/entity/q12s/q12s_green",
+				"red": "textures/entity/q12s/q12s_red",
+				"black": "textures/entity/q12s/q12s_black"
+			},
+			"geometry": {
+				"default": "geometry.q12s"
+			},
+			"render_controllers": [
+				"controller.render.q12s_color"
+			],
+			"spawn_egg": {
+				"texture": "q12s"
+			},
+			"animations": {
+				"move": "animation.q12s.move",
+				"setup": "animation.q12s.spawn",
+				"turn": "animation.q12s.turn",
+				"saddle": "animation.q12s.saddle",
+				"tamed": "animation.q12s.tame",
+				"chest": "animation.q12s.chest",
+				"general": "controller.animation.q12s.general",
+				"normal": "animation.q12s.bag1"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"ride": "query.has_rider"
+					},
+					{
+						"saddle": "query.is_saddled"
+					},
+					{
+						"chest": "query.is_chested"
+					},
+					{
+						"tamed": "query.is_tamed"
+					},
+					"setup",
+					"general"
+				]
+			}
+		}
+	}
+}

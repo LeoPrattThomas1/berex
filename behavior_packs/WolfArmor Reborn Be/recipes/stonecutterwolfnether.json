@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "add:wolfnetherstonecutter"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_block",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "add:wolfarmornetherite",
+      "data": 0,
+      "count": 1
+    }
+  } 
+}

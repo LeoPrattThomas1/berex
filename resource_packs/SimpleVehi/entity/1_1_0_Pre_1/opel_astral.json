@@ -1,0 +1,33 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:opel_astral",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/opel_astra"
+			},
+			"geometry": {
+				"default": "geometry.opel_astra"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 36
+			},
+			"animations": {
+				"move": "animation.opel_astral.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.corolla"
+			]
+		}
+	}
+}

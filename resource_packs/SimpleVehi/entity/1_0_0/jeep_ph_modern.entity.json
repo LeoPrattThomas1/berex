@@ -1,0 +1,33 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:modern_jeep_ph",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/modern_jeep_ph"
+			},
+			"geometry": {
+				"default": "geometry.modern_jeep_ph"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 33
+			},
+			"animations": {
+				"move": "animation.vehicles.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.apv"
+			]
+		}
+	}
+}

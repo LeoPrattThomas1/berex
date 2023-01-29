@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Ford Bronco 2021 Addon (BP)",
+		"description": "Pack of behaviors of the Ford Bronco 2021. Specially made for MCPEDL.",
+		"uuid": "f1163494-f295-4e99-a6e9-67a0da67ee1f",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			100
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "f478d61e-86f0-41fc-a8f5-15f25718dde6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "e3ea3224-4afd-4241-9921-23a2b02003d3"
+		}
+	]
+}

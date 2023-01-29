@@ -1,0 +1,34 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lebronco:blue1",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"default": "textures/entity/lebronco/blue"
+			},
+			"geometry": {
+				"default": "geometry.lebronco_m1"
+			},
+			"render_controllers": [
+				"controller.render.lebronco"
+			],
+			"animations": {
+				"drive": "animation.lebronco.drive",
+				"turning": "animation.lebronco.turning",
+				"close": "animation.lebronco.close"
+			},
+			"spawn_egg": {
+				"texture": "lebronco_item",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.lebronco.general1"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,57 @@
+//bridge-file-version: #27
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"vehicles": {
+			"textures": [
+				"textures/items/ambulance",
+				"textures/items/auv_car",
+				"textures/items/bus",
+				"textures/items/bus_v2",
+				"textures/items/car",
+				"textures/items/offroad_car",
+				"textures/items/fire_truck",
+				"textures/items/helicopter",
+				"textures/items/limo",
+				"textures/items/mini_bus",
+				"textures/items/motor",
+				"textures/items/mustang",
+				"textures/items/police_car",
+				"textures/items/speedboat",
+				"textures/items/taxi",
+				"textures/items/truck",
+				"textures/items/travis",
+				"textures/items/corolla",
+				"textures/items/c_sled",
+				"textures/items/tesla_truck",
+				"textures/items/hoverboard",
+				"textures/items/jeep_ph",
+				"textures/items/tractor",
+				"textures/items/plane",
+				"textures/items/lowrider",
+				"textures/items/ae86",
+				"textures/items/pajero",
+				"textures/items/pick_up_truck",
+				"textures/items/tank",
+				"textures/items/van",
+				"textures/items/volt_bike",
+				"textures/items/ev_4",
+				"textures/items/bike",
+				"textures/items/modern_jeep_ph",
+				"textures/items/ob_van",
+				"textures/items/opel_crosa",
+				"textures/items/opel_astral",
+				"textures/items/vm_beetle",
+				"textures/items/cadillac_dts_2010",
+				"textures/items/honda_accord_2019",
+				"textures/items/ice_cream_truck"
+			]
+		},
+		"tuner": {
+			"textures": [
+				"textures/items/wrench"
+			]
+		}
+	}
+}

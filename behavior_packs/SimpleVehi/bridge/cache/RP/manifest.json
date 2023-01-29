@@ -1,0 +1,291 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\manifest.json",
+	"file_type": "manifest_rp",
+	"format_version": 1,
+	"file_uuid": "c002bd5f_9fb1_4ed1_bc0d_ae61b18b0d63",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1,
+					"header": {
+						"description": "Made By RMPlaysMC YT",
+						"name": "Simple Vehicles OFFICIAL RELEASE Version 1.1 Pre-1 §a§l§o::§r§b RESOURCES",
+						"uuid": "65d0ed87-063d-41ac-a06c-4582c4c3f3e8",
+						"version": [
+							1,
+							1,
+							0
+						]
+					},
+					"metadata": {
+						"authors": [
+							"RMPlaysMC YT"
+						],
+						"url": "https://www.youtube.com/channel/UC2BwlCFTdLmpylM9u2A33bg"
+					},
+					"modules": [
+						{
+							"description": "Made By RMPlaysMC YT",
+							"type": "resources",
+							"uuid": "32bd6d42-6af6-4ee1-b016-df875cc3d2e1",
+							"version": [
+								2,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								1,
+								1
+							],
+							"uuid": "57d70b12-7003-4a48-a825-2865fb338ce0"
+						}
+					]
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "Made By RMPlaysMC YT",
+						"key": "description"
+					},
+					{
+						"open": {
+							"description": "Made By RMPlaysMC YT",
+							"name": "Simple Vehicles OFFICIAL RELEASE Version 1.1 Pre-1 §a§l§o::§r§b RESOURCES",
+							"uuid": "65d0ed87-063d-41ac-a06c-4582c4c3f3e8",
+							"version": [
+								1,
+								1,
+								0
+							]
+						},
+						"data": "Simple Vehicles OFFICIAL RELEASE Version 1.1 Pre-1 §a§l§o::§r§b RESOURCES",
+						"key": "name"
+					},
+					{
+						"data": "65d0ed87-063d-41ac-a06c-4582c4c3f3e8",
+						"key": "uuid"
+					},
+					{
+						"open": {
+							"description": "Made By RMPlaysMC YT",
+							"name": "Simple Vehicles OFFICIAL RELEASE Version 1.1 Pre-1 §a§l§o::§r§b RESOURCES",
+							"uuid": "65d0ed87-063d-41ac-a06c-4582c4c3f3e8",
+							"version": [
+								1,
+								1,
+								0
+							]
+						},
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							1,
+							1,
+							0
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 1,
+					"header": {
+						"description": "Made By RMPlaysMC YT",
+						"name": "Simple Vehicles OFFICIAL RELEASE Version 1.1 Pre-1 §a§l§o::§r§b RESOURCES",
+						"uuid": "65d0ed87-063d-41ac-a06c-4582c4c3f3e8",
+						"version": [
+							1,
+							1,
+							0
+						]
+					},
+					"metadata": {
+						"authors": [
+							"RMPlaysMC YT"
+						],
+						"url": "https://www.youtube.com/channel/UC2BwlCFTdLmpylM9u2A33bg"
+					},
+					"modules": [
+						{
+							"description": "Made By RMPlaysMC YT",
+							"type": "resources",
+							"uuid": "32bd6d42-6af6-4ee1-b016-df875cc3d2e1",
+							"version": [
+								2,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								1,
+								1
+							],
+							"uuid": "57d70b12-7003-4a48-a825-2865fb338ce0"
+						}
+					]
+				},
+				"key": "metadata",
+				"is_minified": true,
+				"children": {
+					"authors": [
+						"RMPlaysMC YT"
+					],
+					"url": "https://www.youtube.com/channel/UC2BwlCFTdLmpylM9u2A33bg"
+				}
+			},
+			{
+				"open": {
+					"format_version": 1,
+					"header": {
+						"description": "Made By RMPlaysMC YT",
+						"name": "Simple Vehicles OFFICIAL RELEASE Version 1.1 Pre-1 §a§l§o::§r§b RESOURCES",
+						"uuid": "65d0ed87-063d-41ac-a06c-4582c4c3f3e8",
+						"version": [
+							1,
+							1,
+							0
+						]
+					},
+					"metadata": {
+						"authors": [
+							"RMPlaysMC YT"
+						],
+						"url": "https://www.youtube.com/channel/UC2BwlCFTdLmpylM9u2A33bg"
+					},
+					"modules": [
+						{
+							"description": "Made By RMPlaysMC YT",
+							"type": "resources",
+							"uuid": "32bd6d42-6af6-4ee1-b016-df875cc3d2e1",
+							"version": [
+								2,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								1,
+								1
+							],
+							"uuid": "57d70b12-7003-4a48-a825-2865fb338ce0"
+						}
+					]
+				},
+				"key": "modules",
+				"is_minified": true,
+				"children": [
+					{
+						"description": "Made By RMPlaysMC YT",
+						"type": "resources",
+						"uuid": "32bd6d42-6af6-4ee1-b016-df875cc3d2e1",
+						"version": [
+							2,
+							0,
+							0
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 1,
+					"header": {
+						"description": "Made By RMPlaysMC YT",
+						"name": "Simple Vehicles OFFICIAL RELEASE Version 1.1 Pre-1 §a§l§o::§r§b RESOURCES",
+						"uuid": "65d0ed87-063d-41ac-a06c-4582c4c3f3e8",
+						"version": [
+							1,
+							1,
+							0
+						]
+					},
+					"metadata": {
+						"authors": [
+							"RMPlaysMC YT"
+						],
+						"url": "https://www.youtube.com/channel/UC2BwlCFTdLmpylM9u2A33bg"
+					},
+					"modules": [
+						{
+							"description": "Made By RMPlaysMC YT",
+							"type": "resources",
+							"uuid": "32bd6d42-6af6-4ee1-b016-df875cc3d2e1",
+							"version": [
+								2,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								1,
+								1
+							],
+							"uuid": "57d70b12-7003-4a48-a825-2865fb338ce0"
+						}
+					]
+				},
+				"key": "dependencies",
+				"children": [
+					{
+						"open": [
+							{
+								"version": [
+									1,
+									1,
+									1
+								],
+								"uuid": "57d70b12-7003-4a48-a825-2865fb338ce0"
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"version": [
+										1,
+										1,
+										1
+									],
+									"uuid": "57d70b12-7003-4a48-a825-2865fb338ce0"
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									1,
+									1
+								]
+							},
+							{
+								"data": "57d70b12-7003-4a48-a825-2865fb338ce0",
+								"key": "uuid"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

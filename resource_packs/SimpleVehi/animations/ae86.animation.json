@@ -1,0 +1,19 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ae86.lights": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"lights": {
+					"rotation": {
+						"0": -17.5,
+						"1": 0,
+						"2": 0
+					}
+				}
+			}
+		}
+	}
+}

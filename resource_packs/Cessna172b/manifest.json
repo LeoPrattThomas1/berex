@@ -1,0 +1,25 @@
+{
+  "header" : {
+    "version" : [
+      0,
+      0,
+      1
+    ],
+    "description" : "Cessna 172 Airplane by SpaghettiJet",
+    "name" : "Cessna 172 by SpaghettiJet RP",
+    "uuid" : "3F901199-9255-4B1E-BB13-1DB122EAC48A"
+  },
+  "modules" : [
+    {
+      "version" : [
+        0,
+        0,
+        1
+      ],
+      "description" : "Cessna 172 by SpaghettiJet",
+      "type" : "resources",
+      "uuid" : "50198FFE-ACAA-4CAE-BD08-27D1B28AFDB4"
+    }
+  ],
+  "format_version" : 1
+}

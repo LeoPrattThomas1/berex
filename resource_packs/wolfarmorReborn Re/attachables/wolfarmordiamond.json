@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "add:wolfarmordiamond",
+      "item": { "add:wolfarmordiamond": "query.owner_identifier == 'minecraft:wolf'" },
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/wolf/diamond",
+        "second": "textures/entity/wolf/diamond2"
+      },
+      "geometry": {
+        "default": "geometry.wolfarmor"
+      },
+      "render_controllers": [ "controller.render.wolf_armor" ]
+    }
+  }
+}

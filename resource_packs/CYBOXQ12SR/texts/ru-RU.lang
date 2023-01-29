@@ -1,0 +1,11 @@
+##bridge-file-version: #23
+
+pack.name=Daewoo Tosca : RP
+pack.description=Сделано в iMasterProX
+
+accessibility.disableTTS=Текст в речь отключен
+accessibility.enableTTS=Текст в речь включен
+
+item.spawn_egg.entity.car:q12s.name=Daewoo Tosca : Granada Black
+action.hint.exit.car:q12s=§oНе занимайтесь обменом текстовыми сообщениями во время транспортных средств.
+entity.car:q12s.name=Daewoo Tosca GB

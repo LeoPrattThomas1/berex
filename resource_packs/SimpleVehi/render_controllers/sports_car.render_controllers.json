@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.sports_car": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.red",
+						"Texture.yellow",
+						"Texture.green",
+						"Texture.blue"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": [ "Array.skins[query.variant]" ]
+		}
+	}
+}

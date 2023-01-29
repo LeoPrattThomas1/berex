@@ -1,0 +1,479 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\entity\\honda_accord_2019.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "5baa5841_84d3_4419_b451_4621d2b84720",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:honda_accord_2019",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+								"white": "textures/entity/honda_accord_2019",
+								"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+								"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+								"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+							},
+							"geometry": {
+								"default": "geometry.honda_accord_2019"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 39
+							},
+							"render_controllers": [
+								"controller.render.honda_accord_2019"
+							],
+							"animations": {
+								"move": "animation.cadillac_dts_2010.move"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"move": "query.modified_distance_moved"
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:honda_accord_2019",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+								"white": "textures/entity/honda_accord_2019",
+								"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+								"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+								"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+							},
+							"geometry": {
+								"default": "geometry.honda_accord_2019"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 39
+							},
+							"render_controllers": [
+								"controller.render.honda_accord_2019"
+							],
+							"animations": {
+								"move": "animation.cadillac_dts_2010.move"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"move": "query.modified_distance_moved"
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:honda_accord_2019",
+								"materials": {
+									"default": "entity_emissive_alpha"
+								},
+								"textures": {
+									"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+									"white": "textures/entity/honda_accord_2019",
+									"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+									"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+									"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+								},
+								"geometry": {
+									"default": "geometry.honda_accord_2019"
+								},
+								"spawn_egg": {
+									"texture": "vehicles",
+									"texture_index": 39
+								},
+								"render_controllers": [
+									"controller.render.honda_accord_2019"
+								],
+								"animations": {
+									"move": "animation.cadillac_dts_2010.move"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"move": "query.modified_distance_moved"
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "aspire:honda_accord_2019",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+										"white": "textures/entity/honda_accord_2019",
+										"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+										"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+										"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+									},
+									"geometry": {
+										"default": "geometry.honda_accord_2019"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 39
+									},
+									"render_controllers": [
+										"controller.render.honda_accord_2019"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"data": "aspire:honda_accord_2019",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "aspire:honda_accord_2019",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+										"white": "textures/entity/honda_accord_2019",
+										"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+										"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+										"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+									},
+									"geometry": {
+										"default": "geometry.honda_accord_2019"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 39
+									},
+									"render_controllers": [
+										"controller.render.honda_accord_2019"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_emissive_alpha"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:honda_accord_2019",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+										"white": "textures/entity/honda_accord_2019",
+										"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+										"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+										"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+									},
+									"geometry": {
+										"default": "geometry.honda_accord_2019"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 39
+									},
+									"render_controllers": [
+										"controller.render.honda_accord_2019"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+									"white": "textures/entity/honda_accord_2019",
+									"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+									"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+									"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:honda_accord_2019",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+										"white": "textures/entity/honda_accord_2019",
+										"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+										"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+										"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+									},
+									"geometry": {
+										"default": "geometry.honda_accord_2019"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 39
+									},
+									"render_controllers": [
+										"controller.render.honda_accord_2019"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.honda_accord_2019"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:honda_accord_2019",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+										"white": "textures/entity/honda_accord_2019",
+										"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+										"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+										"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+									},
+									"geometry": {
+										"default": "geometry.honda_accord_2019"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 39
+									},
+									"render_controllers": [
+										"controller.render.honda_accord_2019"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "vehicles",
+									"texture_index": 39
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:honda_accord_2019",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+										"white": "textures/entity/honda_accord_2019",
+										"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+										"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+										"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+									},
+									"geometry": {
+										"default": "geometry.honda_accord_2019"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 39
+									},
+									"render_controllers": [
+										"controller.render.honda_accord_2019"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.honda_accord_2019"
+								]
+							},
+							{
+								"open": {
+									"identifier": "aspire:honda_accord_2019",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+										"white": "textures/entity/honda_accord_2019",
+										"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+										"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+										"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+									},
+									"geometry": {
+										"default": "geometry.honda_accord_2019"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 39
+									},
+									"render_controllers": [
+										"controller.render.honda_accord_2019"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.cadillac_dts_2010.move"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:honda_accord_2019",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+										"white": "textures/entity/honda_accord_2019",
+										"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+										"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+										"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+									},
+									"geometry": {
+										"default": "geometry.honda_accord_2019"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 39
+									},
+									"render_controllers": [
+										"controller.render.honda_accord_2019"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"move": "query.modified_distance_moved"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"move": "query.modified_distance_moved"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"move": "query.modified_distance_moved"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

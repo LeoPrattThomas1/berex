@@ -1,0 +1,25 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:tank",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/tank"
+			},
+			"geometry": {
+				"default": "geometry.tank"
+			},
+			"render_controllers": [
+				"controller.render.ambulance"
+			],
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 28
+			}
+		}
+	}
+}

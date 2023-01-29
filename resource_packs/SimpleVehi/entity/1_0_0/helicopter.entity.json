@@ -1,0 +1,35 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:helicopter",
+			"materials": {
+				"default": "witch"
+			},
+			"textures": {
+				"default": "textures/entity/helicopter"
+			},
+			"geometry": {
+				"default": "geometry.helicopter"
+			},
+			"animations": {
+				"loop": "animation.helicopter.loop"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"loop": "query.has_rider"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.car4x4"
+			],
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 7
+			}
+		}
+	}
+}

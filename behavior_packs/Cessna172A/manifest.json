@@ -1,0 +1,25 @@
+{
+    "format_version": 1,
+    "header": {
+        "uuid": "95d44714-e6ae-47fe-862d-a6d6a6db6c09",
+        "name": "Cessna 172 Airplane BP",
+        "description": "Cessna 172 by SpaghettiJet BP",
+        "version": [
+            339,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Cessna 172 by SpaghettiJet BP",
+            "type": "data",
+            "version": [
+                339,
+                0,
+                0
+            ],
+            "uuid": "fa6e90c8-c925-460f-8155-c8a60b753caa"
+        }
+    ]
+}

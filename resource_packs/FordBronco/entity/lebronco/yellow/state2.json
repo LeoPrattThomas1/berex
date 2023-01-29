@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lebronco:yellow2",
+			"materials": {
+				"default": "enderman",
+				"glass": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/lebronco/yellow"
+			},
+			"geometry": {
+				"default": "geometry.lebronco_m2"
+			},
+			"render_controllers": [
+				"controller.render.lebronco"
+			],
+			"animations": {
+				"drive": "animation.lebronco.drive",
+				"turning": "animation.lebronco.turning",
+				"door": "animation.lebronco.door",
+				"open": "animation.lebronco.open"
+			},
+			"spawn_egg": {
+				"texture": "lebronco_item",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.lebronco.general2"
+				}
+			]
+		}
+	}
+}

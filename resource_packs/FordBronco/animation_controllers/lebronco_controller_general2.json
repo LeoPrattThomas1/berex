@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.lebronco.general2": {
+			"states": {
+				"default": {
+					"variables": {
+						"moving_speed": {
+							"input": "query.modified_move_speed"
+						},
+						"door": {
+							"input": "query.has_rider"
+						}
+					},
+					"animations": [
+						"turning",
+						"open",
+						{
+							"drive": "variable.moving_speed"
+						},
+						{
+							"door": "variable.door"
+						}
+					]
+				}
+			}
+		}
+	}
+}

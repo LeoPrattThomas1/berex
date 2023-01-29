@@ -1,0 +1,39 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:honda_accord_2019",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"black": "textures/entity/honda_accord_2019/honda_accord_2019_black",
+				"white": "textures/entity/honda_accord_2019",
+				"red": "textures/entity/honda_accord_2019/honda_accord_2019_red",
+				"green": "textures/entity/honda_accord_2019/honda_accord_2019_green",
+				"blue": "textures/entity/honda_accord_2019/honda_accord_2019_blue"
+			},
+			"geometry": {
+				"default": "geometry.honda_accord_2019"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 39
+			},
+			"render_controllers": [
+				"controller.render.honda_accord_2019"
+			],
+			"animations": {
+				"move": "animation.cadillac_dts_2010.move"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_distance_moved"
+					}
+				]
+			}
+		}
+	}
+}

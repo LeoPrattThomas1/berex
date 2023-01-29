@@ -1,0 +1,20 @@
+FEATURES FOR Version 1:
+- There are 35 Vehicles
+- Semi Realistic Details
+- Works Better
+
+Features FOR Version 1.1.0Pre-1:
+- Add 3 Vehicles
+- Improving sounds
+- Bugfixed and Updated to Minecraft 1.16 Version Format
+
+Features FOR Version 1.1.0Pre-2:
+- Add 3 Vehicles
+- Improving sounds
+- Bugfixed and Updated to Minecraft 1.16 Version Format
+- Added Watermark for Protection
+
+Upcoming Updates
+- Improving models
+- Add More...
+- Add Addon Information UI (I need to ask Dakon Black Rose First)

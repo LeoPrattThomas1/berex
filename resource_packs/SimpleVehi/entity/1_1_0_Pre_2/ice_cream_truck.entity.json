@@ -1,0 +1,34 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:ice_cream_truck",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"blue": "textures/entity/ice_cream_truck",
+				"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+			},
+			"geometry": {
+				"default": "geometry.ice_cream_truck"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 40
+			},
+			"animations": {
+				"move": "animation.ambulance.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.ice_cream_truck"
+			]
+		}
+	}
+}

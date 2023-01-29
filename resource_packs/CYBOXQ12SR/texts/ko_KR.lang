@@ -1,0 +1,11 @@
+##bridge-file-version: #23
+
+pack.name=GM대우 토스카 애드온 : 리소스팩
+pack.description=iMasterProX 제작
+
+accessibility.disableTTS=텍스트 음성 변환 비활성화
+accessibility.enableTTS=텍스트 음성 변환 사용
+
+item.spawn_egg.entity.car:q12s.name=싸이박스 Q12S
+action.hint.exit.car:q12s=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:q12s.name=싸이박스 Q12S

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.lebronco_startup": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"startup": "query.has_rider"
+						}
+					]
+				},
+				"startup": {
+					"transitions": [
+						{
+							"default": "!query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/playsound vehicle.lebronco.startup @a[r=50] ~~~"
+					]
+				}
+			}
+		}
+	}
+}

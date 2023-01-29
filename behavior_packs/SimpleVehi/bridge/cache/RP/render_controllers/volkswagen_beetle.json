@@ -1,0 +1,299 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3/render_controllers/volkswagen_beetle.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "f36076b6_9d7c_4c16_9441_df90302db774",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.volkswagen_beetle": {
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.black",
+										"Texture.red",
+										"Texture.green",
+										"Texture.brown",
+										"Texture.blue",
+										"Texture.purple",
+										"Texture.cyan",
+										"Texture.silver",
+										"Texture.gray",
+										"Texture.pink",
+										"Texture.lime",
+										"Texture.yellow",
+										"Texture.light_blue",
+										"Texture.magenta",
+										"Texture.orange",
+										"Texture.white",
+										"Texture.undyed"
+									]
+								}
+							},
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.skins[query.variant]"
+							]
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.volkswagen_beetle": {
+								"arrays": {
+									"textures": {
+										"Array.skins": [
+											"Texture.black",
+											"Texture.red",
+											"Texture.green",
+											"Texture.brown",
+											"Texture.blue",
+											"Texture.purple",
+											"Texture.cyan",
+											"Texture.silver",
+											"Texture.gray",
+											"Texture.pink",
+											"Texture.lime",
+											"Texture.yellow",
+											"Texture.light_blue",
+											"Texture.magenta",
+											"Texture.orange",
+											"Texture.white",
+											"Texture.undyed"
+										]
+									}
+								},
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Array.skins[query.variant]"
+								]
+							}
+						},
+						"key": "controller.render.volkswagen_beetle",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.black",
+												"Texture.red",
+												"Texture.green",
+												"Texture.brown",
+												"Texture.blue",
+												"Texture.purple",
+												"Texture.cyan",
+												"Texture.silver",
+												"Texture.gray",
+												"Texture.pink",
+												"Texture.lime",
+												"Texture.yellow",
+												"Texture.light_blue",
+												"Texture.magenta",
+												"Texture.orange",
+												"Texture.white",
+												"Texture.undyed"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.skins": [
+													"Texture.black",
+													"Texture.red",
+													"Texture.green",
+													"Texture.brown",
+													"Texture.blue",
+													"Texture.purple",
+													"Texture.cyan",
+													"Texture.silver",
+													"Texture.gray",
+													"Texture.pink",
+													"Texture.lime",
+													"Texture.yellow",
+													"Texture.light_blue",
+													"Texture.magenta",
+													"Texture.orange",
+													"Texture.white",
+													"Texture.undyed"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.skins": [
+														"Texture.black",
+														"Texture.red",
+														"Texture.green",
+														"Texture.brown",
+														"Texture.blue",
+														"Texture.purple",
+														"Texture.cyan",
+														"Texture.silver",
+														"Texture.gray",
+														"Texture.pink",
+														"Texture.lime",
+														"Texture.yellow",
+														"Texture.light_blue",
+														"Texture.magenta",
+														"Texture.orange",
+														"Texture.white",
+														"Texture.undyed"
+													]
+												},
+												"key": "Array.skins",
+												"is_minified": true,
+												"children": [
+													"Texture.black",
+													"Texture.red",
+													"Texture.green",
+													"Texture.brown",
+													"Texture.blue",
+													"Texture.purple",
+													"Texture.cyan",
+													"Texture.silver",
+													"Texture.gray",
+													"Texture.pink",
+													"Texture.lime",
+													"Texture.yellow",
+													"Texture.light_blue",
+													"Texture.magenta",
+													"Texture.orange",
+													"Texture.white",
+													"Texture.undyed"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.black",
+												"Texture.red",
+												"Texture.green",
+												"Texture.brown",
+												"Texture.blue",
+												"Texture.purple",
+												"Texture.cyan",
+												"Texture.silver",
+												"Texture.gray",
+												"Texture.pink",
+												"Texture.lime",
+												"Texture.yellow",
+												"Texture.light_blue",
+												"Texture.magenta",
+												"Texture.orange",
+												"Texture.white",
+												"Texture.undyed"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": [
+									{
+										"*": "Material.default"
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.black",
+												"Texture.red",
+												"Texture.green",
+												"Texture.brown",
+												"Texture.blue",
+												"Texture.purple",
+												"Texture.cyan",
+												"Texture.silver",
+												"Texture.gray",
+												"Texture.pink",
+												"Texture.lime",
+												"Texture.yellow",
+												"Texture.light_blue",
+												"Texture.magenta",
+												"Texture.orange",
+												"Texture.white",
+												"Texture.undyed"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.skins[query.variant]"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

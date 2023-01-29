@@ -1,0 +1,124 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.riding.volt_bike": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"is_not_riding_volt_bike": "!query.is_riding && query.variant != 1"
+						},
+						{
+							"honk_horn": "query.is_riding && query.variant == 1 && query.is_jumping"
+						},
+						{
+							"exit_the_tractor": "!query.is_riding && query.variant == 1"
+						}
+					]
+				},
+				"is_not_riding_volt_bike": {
+					"transitions": [
+						{
+							"is_riding_tractor": "query.is_riding && query.variant == 1"
+						}
+					]
+				},
+				"is_riding_volt_bike": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/tellraw @s {\"rawtext\":[{\"translate\":\"action.hint.horn.advfarm:tractor\"}]}"
+					]
+				},
+				"honk_horn": {
+					"transitions": [
+						{
+							"default": "query.is_riding && query.variant == 1 && !query.is_jumping"
+						},
+						{
+							"exit_the_tractor": "!query.is_riding && query.variant == 1"
+						}
+					],
+					"on_entry": [
+						"/stopsound @a[r=20] data.vehicles.horn",
+						"/playsound data.vehicles.horn @a ~ ~ ~"
+					]
+				},
+				"exit_the_volt_bike": {
+					"transitions": [
+						{
+							"is_not_riding_volt_bike": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"@s advfarm:is_not_riding_volt_bike"
+					]
+				}
+			}
+		},
+		"controller.animation.player.riding.hoverboard": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"is_not_riding_hoverboard": "!query.is_riding && query.variant != 2"
+						},
+						{
+							"honk_horn": "query.is_riding && query.variant == 2 && query.is_jumping"
+						},
+						{
+							"exit_the_tractor": "!query.is_riding && query.variant == 2"
+						}
+					]
+				},
+				"is_not_riding_hoverboard": {
+					"transitions": [
+						{
+							"is_riding_tractor": "query.is_riding && query.variant == 2"
+						}
+					]
+				},
+				"is_riding_hoverboard": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/tellraw @s {\"rawtext\":[{\"translate\":\"action.hint.horn.advfarm:tractor\"}]}"
+					]
+				},
+				"honk_horn": {
+					"transitions": [
+						{
+							"default": "query.is_riding && query.variant == 2 && !query.is_jumping"
+						},
+						{
+							"exit_the_tractor": "!query.is_riding && query.variant == 2"
+						}
+					],
+					"on_entry": [
+						"/stopsound @a[r=20] data.vehicles.horn",
+						"/playsound data.vehicles.horn @a ~ ~ ~"
+					]
+				},
+				"exit_the_hoverboard": {
+					"transitions": [
+						{
+							"is_not_riding_volt_bike": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"@s advfarm:is_not_riding_hoverboard"
+					]
+				}
+			}
+		}
+	}
+}

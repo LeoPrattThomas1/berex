@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\render_controllers\\honda_accord_2019.render_controllers.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "d3bbfd9a_62b1_4cdc_ae0a_f4e4f10a3b98",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.honda_accord_2019": {
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.black",
+										"Texture.white",
+										"Texture.red",
+										"Texture.green",
+										"Texture.blue"
+									]
+								}
+							},
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.skins[query.variant]"
+							]
+						}
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.honda_accord_2019": {
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.black",
+										"Texture.white",
+										"Texture.red",
+										"Texture.green",
+										"Texture.blue"
+									]
+								}
+							},
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.skins[query.variant]"
+							]
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.honda_accord_2019": {
+								"arrays": {
+									"textures": {
+										"Array.skins": [
+											"Texture.black",
+											"Texture.white",
+											"Texture.red",
+											"Texture.green",
+											"Texture.blue"
+										]
+									}
+								},
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Array.skins[query.variant]"
+								]
+							}
+						},
+						"key": "controller.render.honda_accord_2019",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.black",
+												"Texture.white",
+												"Texture.red",
+												"Texture.green",
+												"Texture.blue"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.skins": [
+													"Texture.black",
+													"Texture.white",
+													"Texture.red",
+													"Texture.green",
+													"Texture.blue"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.skins": [
+														"Texture.black",
+														"Texture.white",
+														"Texture.red",
+														"Texture.green",
+														"Texture.blue"
+													]
+												},
+												"key": "Array.skins",
+												"is_minified": true,
+												"children": [
+													"Texture.black",
+													"Texture.white",
+													"Texture.red",
+													"Texture.green",
+													"Texture.blue"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.black",
+												"Texture.white",
+												"Texture.red",
+												"Texture.green",
+												"Texture.blue"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.black",
+												"Texture.white",
+												"Texture.red",
+												"Texture.green",
+												"Texture.blue"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.black",
+												"Texture.white",
+												"Texture.red",
+												"Texture.green",
+												"Texture.blue"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.skins[query.variant]"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

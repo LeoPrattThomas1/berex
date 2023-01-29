@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Simple Vehicles Addon 1.1.0 Pre-2 RES",
+        "description": "Addon By RMPlaysMC YT\nThis add-on adds Over 40 Vehicles In Minecraft\nYT: RMPlaysMC YT\nDiscord: RMPlaysMC YT #9360\nTwitter: @rmplaysmc_yt\nFB:Ronnel Sarile Mitra",
+        "uuid": "bec05c06-c6a3-4278-9b15-781980628989",
+        "version": [1, 1, 0],
+        "min_engine_version": [1, 2, 6]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "bbf0000a-0736-44eb-9acb-ee0a1181d97e",
+            "version": [1, 1, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "36fedf31-0c20-4959-8be4-97ce2056fa32",
+            "version": [1, 1, 0]
+        }
+    ]
+}

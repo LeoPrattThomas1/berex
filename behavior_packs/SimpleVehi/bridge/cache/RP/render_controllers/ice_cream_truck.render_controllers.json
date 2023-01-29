@@ -1,0 +1,229 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\render_controllers\\ice_cream_truck.render_controllers.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "2489d0bf_6899_4de4_9b01_36f9437b6a24",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.ice_cream_truck": {
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.blue",
+										"Texture.red"
+									]
+								}
+							},
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.skins[query.variant]"
+							]
+						}
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.ice_cream_truck": {
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.blue",
+										"Texture.red"
+									]
+								}
+							},
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.skins[query.variant]"
+							]
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.ice_cream_truck": {
+								"arrays": {
+									"textures": {
+										"Array.skins": [
+											"Texture.blue",
+											"Texture.red"
+										]
+									}
+								},
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Array.skins[query.variant]"
+								]
+							}
+						},
+						"key": "controller.render.ice_cream_truck",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.blue",
+												"Texture.red"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.skins": [
+													"Texture.blue",
+													"Texture.red"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.skins": [
+														"Texture.blue",
+														"Texture.red"
+													]
+												},
+												"key": "Array.skins",
+												"is_minified": true,
+												"children": [
+													"Texture.blue",
+													"Texture.red"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.blue",
+												"Texture.red"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.blue",
+												"Texture.red"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.blue",
+												"Texture.red"
+											]
+										}
+									},
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.skins[query.variant]"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

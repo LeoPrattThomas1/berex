@@ -1,0 +1,18 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.pick_up_truck": {
+			"rebuild_animation_matrices": true,
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Texture.default"
+			]
+		}
+	}
+}

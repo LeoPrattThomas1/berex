@@ -1,0 +1,250 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\entity\\opel_astral.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "e44b3704_a363_4e9e_b83f_d413652652c5",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:opel_astral",
+							"materials": {
+								"default": "aspire"
+							},
+							"textures": {
+								"default": "textures/entity/opel_astra"
+							},
+							"geometry": {
+								"default": "geometry.opel_astra"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 36
+							},
+							"animations": {
+								"move": "animation.opel_astral.move"
+							},
+							"animation_controllers": [
+								{
+									"move": "controller.animation.vehicles.move"
+								}
+							],
+							"render_controllers": [
+								"controller.render.corolla"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:opel_astral",
+								"materials": {
+									"default": "aspire"
+								},
+								"textures": {
+									"default": "textures/entity/opel_astra"
+								},
+								"geometry": {
+									"default": "geometry.opel_astra"
+								},
+								"spawn_egg": {
+									"texture": "vehicles",
+									"texture_index": 36
+								},
+								"animations": {
+									"move": "animation.opel_astral.move"
+								},
+								"animation_controllers": [
+									{
+										"move": "controller.animation.vehicles.move"
+									}
+								],
+								"render_controllers": [
+									"controller.render.corolla"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "aspire:opel_astral",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"default": "textures/entity/opel_astra"
+									},
+									"geometry": {
+										"default": "geometry.opel_astra"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 36
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.corolla"
+									]
+								},
+								"data": "aspire:opel_astral",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "aspire"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:opel_astral",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"default": "textures/entity/opel_astra"
+									},
+									"geometry": {
+										"default": "geometry.opel_astra"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 36
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.corolla"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/opel_astra"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:opel_astral",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"default": "textures/entity/opel_astra"
+									},
+									"geometry": {
+										"default": "geometry.opel_astra"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 36
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.corolla"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.opel_astra"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:opel_astral",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"default": "textures/entity/opel_astra"
+									},
+									"geometry": {
+										"default": "geometry.opel_astra"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 36
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.corolla"
+									]
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "vehicles",
+									"texture_index": 36
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.opel_astral.move"
+								}
+							},
+							{
+								"key": "animation_controllers",
+								"is_minified": true,
+								"children": [
+									{
+										"move": "controller.animation.vehicles.move"
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.corolla"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

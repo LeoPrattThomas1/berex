@@ -1,0 +1,108 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.q12s.chest": {
+			"loop": true,
+			"animation_length": 126000,
+			"bones": {
+				"Bag1": {
+					"position": [0, 7.6, 13.75]
+				}
+			}
+		},
+		"animation.q12s.tame": {
+			"animation_length": 126000,
+			"bones": {
+				"message": {
+					"position": [0, -15, -11],
+					"scale": [1, 0.1, 0.1]
+				}
+			}
+		},
+		"animation.q12s.spawn": {
+			"animation_length": 2
+		},
+		"animation.q12s.move": {
+			"loop": true,
+			"animation_length": 0.3167,
+			"bones": {
+				"C": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"D": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"move": {
+					"position": {
+						"0.0": [0, 0, 4],
+						"0.0333": [0, 0, 4],
+						"0.0833": [0, 0, 6.5],
+						"0.1167": [0, 0, 4],
+						"0.1667": [0, 0, 4],
+						"0.2": [0, 0, 6.5],
+						"0.2333": [0, 0, 4],
+						"0.2833": [0, 0, 4],
+						"0.3167": [0, 0, 6.5],
+						"0.3667": [0, 0, 4]
+					}
+				}
+			}
+		},
+		"animation.q12s.turn": {
+			"loop": true,
+			"bones": {
+				"C": {
+					"rotation": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+				},
+				"steering_wheel": {
+					"rotation": [0, 0, "Math.max(-28, Math.min(28,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
+				}
+			}
+		},
+		"animation.q12s.bag1": {
+			"loop": true,
+			"animation_length": 126000,
+			"bones": {
+				"Bag1": {
+					"position": [0, -3, 38],
+					"scale": [0.3, 0.3, 0.3]
+				}
+			}
+		},
+		"animation.q12s.saddle": {
+			"loop": true,
+			"animation_length": 126000,
+			"bones": {
+				"front_light_on": {
+					"position": [0, 0, -1]
+				},
+				"back_light_on": {
+					"position": [0, 0, 1]
+				},
+				"back_light_off": {
+					"position": [0, 0, -1]
+				},
+				"side_right_light_off": {
+					"position": [1, 0, 0]
+				},
+				"side_right_light_on": {
+					"position": [-1, 0, 0]
+				},
+				"side_left_light_off": {
+					"position": [-1, 0, 0]
+				},
+				"side_left_light_on": {
+					"position": [1, 0, 0]
+				}
+			}
+		}
+	}
+}

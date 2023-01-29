@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:horsearmornetherite",
+      "item": { "add:horsearmornetherite": "query.owner_identifier == 'minecraft:horse'" },
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/horse_nether"
+      },
+      "geometry": {
+        "default": "geometry.horse"
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

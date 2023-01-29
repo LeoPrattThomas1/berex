@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "add:wolf_iron"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " C ",
+      "NBN",
+      " B "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:iron_helmet"
+      },
+      "N": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_boots"
+      }
+    },
+    "result": [
+      { "item": "add:wolfarmoriron" }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wolf.bob": {
+			"loop": false,
+			"override_previous_animation": false,
+			"animation_length": 4,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [-2.5, 0, 0],
+						"0.24": [0, -45, 0],
+						"0.8": [0, -45, 0],
+						"1.68": [0, 45, 0],
+						"2.4": [0, 45, 0],
+						"3.0": [45, 0, 0],
+						"3.4": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

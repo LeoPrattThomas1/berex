@@ -1,0 +1,43 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:car",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"grey": "textures/entity/car",
+				"red": "textures/entity/car/car_red",
+				"green": "textures/entity/car/car_green",
+				"blue": "textures/entity/car/car_blue",
+				"yellow": "textures/entity/car/car_yellow",
+				"pink": "textures/entity/car/car_pink",
+				"black": "textures/entity/car/car_black",
+				"purple": "textures/entity/car/car_purple",
+				"orange": "textures/entity/car/car_naranja",
+				"brown": "textures/entity/car/car_cafe",
+				"cyan": "textures/entity/car/car_cyan"
+			},
+			"geometry": {
+				"default": "geometry.car"
+			},
+			"animations": {
+				"move": "animation.vehicles.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.simple_car"
+			],
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 4
+			}
+		}
+	}
+}

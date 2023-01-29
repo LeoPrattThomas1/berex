@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "add:wolf_diamond"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " C ",
+      "NBN",
+      " B "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:diamond_helmet"
+      },
+      "N": {
+        "item": "minecraft:diamond"
+      },
+      "B": {
+        "item": "minecraft:diamond_boots"
+      }
+    },
+    "result": [
+      { "item": "add:wolfarmordiamond" }
+    ]
+  }
+}

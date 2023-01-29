@@ -1,0 +1,22 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "aspire:ambulance",
+            "materials": {"default": "aspire"},
+            "textures": {"default": "textures/entity/ambulance"},
+            "geometry": {"default": "geometry.ambulance"},
+            "spawn_egg": {"texture": "vehicles","texture_index": 0},
+            "animations": {
+				"move": "animation.ambulance.move"
+			},
+            "animation_controllers": [
+                { 
+				    "move": "controller.animation.vehicles.move"
+				}
+            ],
+            "render_controllers":
+    		["controller.render.ambulance" ]
+        }
+    }
+}

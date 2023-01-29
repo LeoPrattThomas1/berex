@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "add:wolf_oldes"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " C ",
+      "NBN",
+      " B "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:golden_helmet"
+      },
+      "N": {
+        "item": "minecraft:gold_ingot"
+      },
+      "B": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "result": [
+      { "item": "add:wolfarmorgold", "count": 1, "lore": "Wolf mine" }
+    ]
+  }
+}

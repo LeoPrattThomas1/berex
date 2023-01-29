@@ -1,0 +1,11 @@
+##bridge-file-version: #23
+
+pack.name=Daewoo Tosca : RP
+pack.description=Feito por iMasterProX
+
+accessibility.disableTTS=Texto para fala desativado
+accessibility.enableTTS=Texto para fala ativado
+
+item.spawn_egg.entity.car:q12s.name=CYBOX Q12S
+action.hint.exit.car:q12s=§oNão se envolva em mensagens de texto enquanto veículos.
+entity.car:q12s.name=CYBOX Q12S

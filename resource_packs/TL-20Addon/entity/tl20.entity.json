@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tl:20",
+      "materials": { 
+          "default": "enderman"
+      },
+      "textures": {
+        "default": "textures/entity/car/tl20_1"
+      },
+      "geometry": {
+        "default": "geometry.tl_20"
+      },
+      "render_controllers": [ "controller.render.car" ],
+      "spawn_egg": {
+        "texture": "tl20",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "add:wolfgoldstonecutter"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "minecraft:gold_block",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "add:wolfarmorgold",
+      "data": 0,
+      "count": 1
+    }
+  } 
+}

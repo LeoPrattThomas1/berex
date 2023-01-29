@@ -1,0 +1,30 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+			"identifier": "aspire:limmo",
+            "materials": {
+                "default": "witch"
+            },
+            "textures": {
+                "default": "textures/entity/limmo"
+            },
+            "geometry": {
+                "default": "geometry.limmo"
+            },
+            "animations": {
+                "move": "animation.vehicles.move"
+            },
+            "animation_controllers": [
+                { 
+				    "move": "controller.animation.vehicles.move"
+				}
+            ],
+            "render_controllers": [ "controller.render.single" ],
+            "spawn_egg": {
+                "texture": "vehicles",
+                "texture_index": 8
+            }
+        }
+    }
+}

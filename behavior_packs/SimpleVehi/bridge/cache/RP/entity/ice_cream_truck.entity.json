@@ -1,0 +1,409 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\entity\\ice_cream_truck.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "5edc8542_22a8_48f2_a613_0e21c285109e",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:ice_cream_truck",
+							"materials": {
+								"default": "aspire"
+							},
+							"textures": {
+								"blue": "textures/entity/ice_cream_truck",
+								"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+							},
+							"geometry": {
+								"default": "geometry.ice_cream_truck"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 40
+							},
+							"animations": {
+								"move": "animation.ambulance.move"
+							},
+							"animation_controllers": [
+								{
+									"move": "controller.animation.vehicles.move"
+								}
+							],
+							"render_controllers": [
+								"controller.render.ice_cream_truck"
+							]
+						}
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:ice_cream_truck",
+							"materials": {
+								"default": "aspire"
+							},
+							"textures": {
+								"blue": "textures/entity/ice_cream_truck",
+								"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+							},
+							"geometry": {
+								"default": "geometry.ice_cream_truck"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 40
+							},
+							"animations": {
+								"move": "animation.ambulance.move"
+							},
+							"animation_controllers": [
+								{
+									"move": "controller.animation.vehicles.move"
+								}
+							],
+							"render_controllers": [
+								"controller.render.ice_cream_truck"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:ice_cream_truck",
+								"materials": {
+									"default": "aspire"
+								},
+								"textures": {
+									"blue": "textures/entity/ice_cream_truck",
+									"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+								},
+								"geometry": {
+									"default": "geometry.ice_cream_truck"
+								},
+								"spawn_egg": {
+									"texture": "vehicles",
+									"texture_index": 40
+								},
+								"animations": {
+									"move": "animation.ambulance.move"
+								},
+								"animation_controllers": [
+									{
+										"move": "controller.animation.vehicles.move"
+									}
+								],
+								"render_controllers": [
+									"controller.render.ice_cream_truck"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "aspire:ice_cream_truck",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"blue": "textures/entity/ice_cream_truck",
+										"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+									},
+									"geometry": {
+										"default": "geometry.ice_cream_truck"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 40
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ice_cream_truck"
+									]
+								},
+								"data": "aspire:ice_cream_truck",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "aspire:ice_cream_truck",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"blue": "textures/entity/ice_cream_truck",
+										"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+									},
+									"geometry": {
+										"default": "geometry.ice_cream_truck"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 40
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ice_cream_truck"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "aspire"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:ice_cream_truck",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"blue": "textures/entity/ice_cream_truck",
+										"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+									},
+									"geometry": {
+										"default": "geometry.ice_cream_truck"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 40
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ice_cream_truck"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"blue": "textures/entity/ice_cream_truck",
+									"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:ice_cream_truck",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"blue": "textures/entity/ice_cream_truck",
+										"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+									},
+									"geometry": {
+										"default": "geometry.ice_cream_truck"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 40
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ice_cream_truck"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.ice_cream_truck"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:ice_cream_truck",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"blue": "textures/entity/ice_cream_truck",
+										"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+									},
+									"geometry": {
+										"default": "geometry.ice_cream_truck"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 40
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ice_cream_truck"
+									]
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "vehicles",
+									"texture_index": 40
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:ice_cream_truck",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"blue": "textures/entity/ice_cream_truck",
+										"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+									},
+									"geometry": {
+										"default": "geometry.ice_cream_truck"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 40
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ice_cream_truck"
+									]
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.ambulance.move"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:ice_cream_truck",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"blue": "textures/entity/ice_cream_truck",
+										"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+									},
+									"geometry": {
+										"default": "geometry.ice_cream_truck"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 40
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ice_cream_truck"
+									]
+								},
+								"key": "animation_controllers",
+								"children": [
+									{
+										"open": [
+											{
+												"move": "controller.animation.vehicles.move"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"move": "controller.animation.vehicles.move"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "aspire:ice_cream_truck",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"blue": "textures/entity/ice_cream_truck",
+										"red": "textures/entity/ice_cream_truck/ice_cream_truck_red"
+									},
+									"geometry": {
+										"default": "geometry.ice_cream_truck"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 40
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.ice_cream_truck"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.ice_cream_truck"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

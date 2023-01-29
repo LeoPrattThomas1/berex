@@ -1,0 +1,33 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:pajero",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/pajero"
+			},
+			"geometry": {
+				"default": "geometry.pajero"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 26
+			},
+			"animations": {
+				"move": "animation.ambulance.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.corolla"
+			]
+		}
+	}
+}

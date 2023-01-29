@@ -1,0 +1,30 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.c_sled.fly": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flying": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function c_sled"
+					]
+				},
+				"flying": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function c_sled"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:ae86",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/ae86"
+			},
+			"geometry": {
+				"default": "geometry.ae86"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 25
+			},
+			"animations": {
+				"move": "animation.ambulance.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.corolla"
+			]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "by @TLivecraft",
+        "name": "TL-20 Addon",
+		"uuid": "d1a2fb67-9e55-4d9f-934e-53067e654459",
+        "version": [0, 1, 0],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "by @TLivecraft",
+            "type": "resources",
+			"uuid": "a4459036-2847-40a5-9dcc-444d2a1cf6aa",
+            "version": [0, 0, 1]
+        }
+    ]
+}

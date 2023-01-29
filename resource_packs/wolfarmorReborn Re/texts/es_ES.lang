@@ -1,0 +1,12 @@
+pack.name=Wolf armor lang:§l§2Español
+pack.description=§5+ §l§3Realm Plus§r,Añade nuevas armaduras para proteger a tu lobo, además de poder colocarles cofres.§lAddon By Juaneitor22,Johny Tuggy,Hotspanish.
+
+action.hint.exit.wolf=Toca Agachar para desmontar
+
+item.add:wolfarmorgold.name=Armadura de oro para lobos
+item.add:wolfarmorchain.name=Armadura de malla para lobos
+item.add:wolfarmoriron.name=Armadura de hierro para lobos
+item.add:wolfarmordiamond.name=Armadura de diamante para lobos
+item.add:wolfarmornetheritefail.name=Aleación imperfecta de oro y netherite
+item.add:wolfarmornetherite.name=Armadura de netherite para lobos
+item.add:wolfarmorchainenchanted.name=Armadura de malla para lobos

@@ -1,0 +1,223 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\entity\\opel_crosa.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "c1abcb19_227b_4d76_a0da_34c1a76cc29e",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:opel_corsa",
+							"materials": {
+								"default": "aspire"
+							},
+							"textures": {
+								"default": "textures/entity/opel_corsa"
+							},
+							"geometry": {
+								"default": "geometry.opel_corsa"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 35
+							},
+							"animations": {
+								"move": "animation.ambulance.move"
+							},
+							"animation_controllers": [
+								{
+									"move": "controller.animation.vehicles.move"
+								}
+							],
+							"render_controllers": [
+								"controller.render.corolla"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:opel_corsa",
+								"materials": {
+									"default": "aspire"
+								},
+								"textures": {
+									"default": "textures/entity/opel_corsa"
+								},
+								"geometry": {
+									"default": "geometry.opel_corsa"
+								},
+								"spawn_egg": {
+									"texture": "vehicles",
+									"texture_index": 35
+								},
+								"animations": {
+									"move": "animation.ambulance.move"
+								},
+								"animation_controllers": [
+									{
+										"move": "controller.animation.vehicles.move"
+									}
+								],
+								"render_controllers": [
+									"controller.render.corolla"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "aspire:opel_corsa",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "aspire:opel_corsa",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"default": "textures/entity/opel_corsa"
+									},
+									"geometry": {
+										"default": "geometry.opel_corsa"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 35
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.corolla"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "aspire"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:opel_corsa",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"default": "textures/entity/opel_corsa"
+									},
+									"geometry": {
+										"default": "geometry.opel_corsa"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 35
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.corolla"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/opel_corsa"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:opel_corsa",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"default": "textures/entity/opel_corsa"
+									},
+									"geometry": {
+										"default": "geometry.opel_corsa"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 35
+									},
+									"animations": {
+										"move": "animation.ambulance.move"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.vehicles.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.corolla"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.opel_corsa"
+								}
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "vehicles",
+									"texture_index": 35
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.ambulance.move"
+								}
+							},
+							{
+								"key": "animation_controllers",
+								"is_minified": true,
+								"children": [
+									{
+										"move": "controller.animation.vehicles.move"
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.corolla"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+pack.name=Wolf Armor Reborn lang:§l§2English
+pack.description=§5+ §l§3Realm plus§r,Add new armors for you wolfs.§lBy Juaneitor 22,Johny Tuggy,Hotspanish
+
+action.interact.wolf=Ride
+action.hint.exit.wolf=Ride
+
+item.add:wolfarmorgold.name=Golden Wolf Armor
+item.add:wolfarmorchain.name=Chain Wolf Armor
+item.add:wolfarmoriron.name=Iron Wolf Armor
+item.add:wolfarmordiamond.name=Diamond Wolf Armor
+item.add:wolfarmornetherite.name=Netherite Wolf Armor
+item.add:wolfarmorchainenchanted.name=Chain Wolf Armor

@@ -1,0 +1,380 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\entity\\volkswagen_beetle.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "9452ab97_bc7e_4884_a76a_4c3a02850d9d",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:volkswagen_beetle",
+							"materials": {
+								"default": "aspire"
+							},
+							"textures": {
+								"yellow": "textures/entity/VW_Beetle",
+								"red": "textures/entity/vm_beetle/VW_Beetle_red",
+								"green": "textures/entity/vm_beetle/VW_Beetle_green",
+								"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+								"white": "textures/entity/vm_beetle/VW_Beetle_white"
+							},
+							"geometry": {
+								"default": "geometry.VW_Beetle"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 37
+							},
+							"animations": {
+								"move": "animation.opel_astral.move"
+							},
+							"render_controllers": [
+								"controller.render.volkswagen_beetle"
+							],
+							"scripts": {
+								"animate": [
+									{
+										"move": "query.modified_distance_moved"
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:volkswagen_beetle",
+							"materials": {
+								"default": "aspire"
+							},
+							"textures": {
+								"yellow": "textures/entity/VW_Beetle",
+								"red": "textures/entity/vm_beetle/VW_Beetle_red",
+								"green": "textures/entity/vm_beetle/VW_Beetle_green",
+								"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+								"white": "textures/entity/vm_beetle/VW_Beetle_white"
+							},
+							"geometry": {
+								"default": "geometry.VW_Beetle"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 37
+							},
+							"animations": {
+								"move": "animation.opel_astral.move"
+							},
+							"render_controllers": [
+								"controller.render.volkswagen_beetle"
+							],
+							"scripts": {
+								"animate": [
+									{
+										"move": "query.modified_distance_moved"
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:volkswagen_beetle",
+								"materials": {
+									"default": "aspire"
+								},
+								"textures": {
+									"yellow": "textures/entity/VW_Beetle",
+									"red": "textures/entity/vm_beetle/VW_Beetle_red",
+									"green": "textures/entity/vm_beetle/VW_Beetle_green",
+									"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+									"white": "textures/entity/vm_beetle/VW_Beetle_white"
+								},
+								"geometry": {
+									"default": "geometry.VW_Beetle"
+								},
+								"spawn_egg": {
+									"texture": "vehicles",
+									"texture_index": 37
+								},
+								"animations": {
+									"move": "animation.opel_astral.move"
+								},
+								"render_controllers": [
+									"controller.render.volkswagen_beetle"
+								],
+								"scripts": {
+									"animate": [
+										{
+											"move": "query.modified_distance_moved"
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "aspire:volkswagen_beetle",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"yellow": "textures/entity/VW_Beetle",
+										"red": "textures/entity/vm_beetle/VW_Beetle_red",
+										"green": "textures/entity/vm_beetle/VW_Beetle_green",
+										"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+										"white": "textures/entity/vm_beetle/VW_Beetle_white"
+									},
+									"geometry": {
+										"default": "geometry.VW_Beetle"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 37
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"render_controllers": [
+										"controller.render.volkswagen_beetle"
+									],
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"data": "aspire:volkswagen_beetle",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "aspire"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:volkswagen_beetle",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"yellow": "textures/entity/VW_Beetle",
+										"red": "textures/entity/vm_beetle/VW_Beetle_red",
+										"green": "textures/entity/vm_beetle/VW_Beetle_green",
+										"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+										"white": "textures/entity/vm_beetle/VW_Beetle_white"
+									},
+									"geometry": {
+										"default": "geometry.VW_Beetle"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 37
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"render_controllers": [
+										"controller.render.volkswagen_beetle"
+									],
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"yellow": "textures/entity/VW_Beetle",
+									"red": "textures/entity/vm_beetle/VW_Beetle_red",
+									"green": "textures/entity/vm_beetle/VW_Beetle_green",
+									"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+									"white": "textures/entity/vm_beetle/VW_Beetle_white"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.VW_Beetle"
+								}
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "vehicles",
+									"texture_index": 37
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:volkswagen_beetle",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"yellow": "textures/entity/VW_Beetle",
+										"red": "textures/entity/vm_beetle/VW_Beetle_red",
+										"green": "textures/entity/vm_beetle/VW_Beetle_green",
+										"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+										"white": "textures/entity/vm_beetle/VW_Beetle_white"
+									},
+									"geometry": {
+										"default": "geometry.VW_Beetle"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 37
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"render_controllers": [
+										"controller.render.volkswagen_beetle"
+									],
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.opel_astral.move"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:volkswagen_beetle",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"yellow": "textures/entity/VW_Beetle",
+										"red": "textures/entity/vm_beetle/VW_Beetle_red",
+										"green": "textures/entity/vm_beetle/VW_Beetle_green",
+										"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+										"white": "textures/entity/vm_beetle/VW_Beetle_white"
+									},
+									"geometry": {
+										"default": "geometry.VW_Beetle"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 37
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"render_controllers": [
+										"controller.render.volkswagen_beetle"
+									],
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.volkswagen_beetle"
+								]
+							},
+							{
+								"open": {
+									"identifier": "aspire:volkswagen_beetle",
+									"materials": {
+										"default": "aspire"
+									},
+									"textures": {
+										"yellow": "textures/entity/VW_Beetle",
+										"red": "textures/entity/vm_beetle/VW_Beetle_red",
+										"green": "textures/entity/vm_beetle/VW_Beetle_green",
+										"blue": "textures/entity/vm_beetle/VW_Beetle_blue",
+										"white": "textures/entity/vm_beetle/VW_Beetle_white"
+									},
+									"geometry": {
+										"default": "geometry.VW_Beetle"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 37
+									},
+									"animations": {
+										"move": "animation.opel_astral.move"
+									},
+									"render_controllers": [
+										"controller.render.volkswagen_beetle"
+									],
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"move": "query.modified_distance_moved"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"move": "query.modified_distance_moved"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"move": "query.modified_distance_moved"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

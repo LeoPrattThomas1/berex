@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "CYBOX Q12S : BP",
+        "description": "Made by iMasterProX",
+        "uuid": "03b65556-1daa-40ba-bdf6-3c7b4d6bb7f9",
+        "version": [1, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "CYBOX Q12S : BP",
+            "type": "data",
+            "uuid": "72665696-34fe-4612-ac12-1a766b1fa32f",
+            "version": [1, 0, 2]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "7ac7dc8a-9090-4734-abd2-b56e44ca75b8",
+            "version": [1, 0, 2]
+        }
+    ]
+}

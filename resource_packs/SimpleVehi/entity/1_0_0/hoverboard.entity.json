@@ -1,0 +1,39 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:hoverboard",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"blue": "textures/entity/hoverboard",
+				"green": "textures/entity/hoverboard/hoverboard_green",
+				"orange": "textures/entity/hoverboard/hoverboard_orange",
+				"red": "textures/entity/hoverboard/hoverboard_red",
+				"yellow": "textures/entity/hoverboard/hoverboard_yellow"
+			},
+			"geometry": {
+				"default": "geometry.hoverboard"
+			},
+			"animations": {
+				"move": "animation.hoverboard.move",
+				"move2": "animation.hoverboard.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.hoverboard.move",
+					"move2": "controller.animation.hoverboard.move2"
+				}
+			],
+			"render_controllers": [
+				"controller.render.hoverboard"
+			],
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 20
+			}
+		}
+	}
+}

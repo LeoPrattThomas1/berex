@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "CYBOX Q12S : RP",
+        "description": "Made by iMasterProX",
+        "uuid": "7ac7dc8a-9090-4734-abd2-b56e44ca75b8",
+        "version": [1, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "CYBOX Q12S : RP",
+            "type": "resources",
+            "uuid": "e5aac5de-c871-4e80-bb3b-8344fa2066d2",
+            "version": [1, 0, 2]
+        }
+    ]
+}

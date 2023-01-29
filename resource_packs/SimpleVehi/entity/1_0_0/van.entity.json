@@ -1,0 +1,33 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:van",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/van"
+			},
+			"geometry": {
+				"default": "geometry.van"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 29
+			},
+			"animations": {
+				"move": "animation.van.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.corolla"
+			]
+		}
+	}
+}

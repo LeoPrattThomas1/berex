@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:wolfarmornerherite",
+      "item": { "add:wolfarmornetherite": "query.owner_identifier == 'minecraft:wolf'" },
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/wolf/netherite",
+        "second": "textures/entity/wolf/netherite2"
+      },
+      "geometry": {
+        "default": "geometry.wolfarmor"
+      },
+      "render_controllers": [ "controller.render.wolf_armor" ]
+    }
+  }
+}

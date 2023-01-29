@@ -1,0 +1,118 @@
+//bridge-file-version: #1
+{
+	"vehicles.drive": {
+		"category": "neutral",
+		"sounds": [
+			{
+				"name": "sounds/data/illegal.logging",
+				"volume": 1,
+				"load_on_low_memory": true
+			},
+			{
+				"name": "sounds/data/illegal.eating",
+				"volume": 1,
+				"load_on_low_memory": true
+			},
+			{
+				"name": "sounds/data/carhit1",
+				"volume": 1,
+				"load_on_low_memory": true
+			},
+			{
+				"name": "sounds/.data/carhit2",
+				"volume": 1,
+				"load_on_low_memory": true
+			},
+			{
+				"name": "sounds/data/carhit3",
+				"volume": 1,
+				"load_on_low_memory": true
+			},
+			{
+				"name": "sounds/data/carhit4",
+				"volume": 1,
+				"load_on_low_memory": true
+			},
+			{
+				"name": "sounds/data/illegal.logging",
+				"volume": 1,
+				"load_on_low_memory": true
+			}
+		]
+	},
+	"vehicles.saddled": {
+		"category": "neutral",
+		"sounds": [
+			{
+				"name": "sounds/data/mightybond",
+				"volume": 1,
+				"load_on_low_memory": true
+			}
+		]
+	},
+	"vehicles.sirene": {
+		"category": "neutral",
+		"sounds": [
+			{
+				"name": "sounds/data/grannyshoutedme",
+				"volume": 1,
+				"load_on_low_memory": true
+			}
+		]
+	},
+	"vehicles.police_car": {
+		"category": "neutral",
+		"sounds": [
+			{
+				"name": "sounds/data/fbiopenup",
+				"volume": 1,
+				"load_on_low_memory": true
+			}
+		]
+	},
+	"vehicles.hit": {
+		"category": "neutral",
+		"sounds": [
+			{
+				"name": "sounds/data/etlog",
+				"volume": 1,
+				"load_on_low_memory": true
+			}
+		]
+	},
+	"motor.drive": {
+		"category": "neutral",
+		"sounds": [
+			{
+				"name": "sounds/data/poopcannon",
+				"volume": 1,
+				"load_on_low_memory": true
+			},
+			{
+				"name": "sounds/data/meltedsaliva",
+				"volume": 1,
+				"load_on_low_memory": true
+			}
+		]
+	},
+	"vehicles.horn": {
+		"category": "neutral",
+		"sounds": [
+			{
+				"name": "sounds/data/leveledupfart",
+				"volume": 1,
+				"load_on_low_memory": true
+			}
+		]
+	},
+	"vehicles.helicopter": {
+		"category": "neutral",
+		"sounds": [
+			{
+				"name": "sounds/data/carelesswhisper",
+				"volume": 1,
+				"load_on_low_memory": true
+			}
+		]
+	}
+}

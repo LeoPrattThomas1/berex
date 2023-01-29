@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "add:wolf_fail"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " C ",
+      "NBN",
+      " B "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:netherite_helmet"
+      },
+      "N": {
+        "item": "minecraft:gold_ingot"
+      },
+      "B": {
+        "item": "minecraft:netherite_boots"
+      }
+    },
+    "result": [
+      { "item": "add:wolfarmornetherite" }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "sj:cessna",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+    		"scripts": {
+			    "animate": [
+			        "c_fly",
+			        "c_off"
+			    ]
+			},
+			"animations": {
+			    "c_fly": "controller.animation.c_fly",
+			    "c_off": "controller.animation.c_off"
+			}
+    },
+    
+	
+    
+ 
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "plane" ]
+      },
+      "minecraft:collision_box": {
+        "width": 1.5,
+        "height": 2.0
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      },
+        "minecraft:underwater_movement": {
+          "value": 0.10
+        }, 
+    "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": false
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/iron_golem_loot.json"
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:movement": {
+        "value": 1.2
+      },
+  
+      "minecraft:movement.basic": {
+      },
+
+			"minecraft:scale": {
+				"value": 2.7
+			},
+ "minecraft:jump.static": {
+      },
+      "minecraft:health": {
+        "value": 25,
+        "max": 25
+      },
+    	
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "player" 
+        ],
+        "interact_text": "action.interact.ride.cessna",
+        "seats": {
+          "position": [ -0.05, 0.51, 0.3 ]
+        }
+      },
+      "minecraft:behavior.player_ride_tamed": {
+      },
+      "minecraft:input_ground_controlled": {
+      },
+      "minecraft:can_power_jump": {
+      },
+      "minecraft:horse.jump_strength": {
+        "value": {
+          "range_min": 0,
+          "range_max": 0.1
+        }
+      },
+
+	
+
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+       "add": {
+         "component_groups": [ "minecraft:chicken_adult" ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "kart.spawn": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_spawn",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "kart.door_close": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_door_close",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "kart.drive": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_drive",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "kart.saddled": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_saddled",
+                "load_on_low_memory": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,1253 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_behavior_packs\\SimpleVehiB3\\entities\\1_1_0_Pre_2\\ice_cream_truck.behavior.system.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "572c8ab3_497e_4f93_84e9_9fbf9777c79b",
+	"file_version": 31,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "aspire:ice_cream_truck",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"component_groups": {
+							"minecraft:corolla": {
+								"minecraft:is_tamed": {},
+								"minecraft:equippable": {
+									"slots": [
+										{
+											"slot": 0,
+											"item": "saddle",
+											"accepted_items": [
+												"saddle"
+											],
+											"on_equip": {
+												"event": "minecraft:donkey_saddled"
+											},
+											"on_unequip": {
+												"event": "minecraft:donkey_unsaddled"
+											}
+										}
+									]
+								},
+								"minecraft:rideable": {
+									"seat_count": 1,
+									"crouching_skip_interact": true,
+									"family_types": [
+										"player"
+									],
+									"interact_text": "Drive",
+									"seats": [
+										{
+											"position": [
+												0.6,
+												0.8,
+												0.7
+											]
+										}
+									]
+								}
+							},
+							"minecraft:donkey_saddled": {
+								"minecraft:is_saddled": {},
+								"minecraft:input_ground_controlled": {},
+								"minecraft:can_power_jump": {}
+							},
+							"minecraft:blue": {
+								"minecraft:variant": {
+									"value": 0
+								}
+							},
+							"minecraft:red": {
+								"minecraft:variant": {
+									"value": 1
+								}
+							}
+						},
+						"components": {
+							"minecraft:experience_reward": {
+								"on_death": "Math.Min(query.player_level * 7, 100)"
+							},
+							"minecraft:scale": {
+								"value": 1
+							},
+							"minecraft:type_family": {
+								"family": [
+									"aspire",
+									"mob"
+								]
+							},
+							"minecraft:collision_box": {
+								"width": 1.4,
+								"height": 1.6
+							},
+							"minecraft:health": {
+								"value": {
+									"range_min": 15,
+									"range_max": 30
+								}
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:inventory": {
+								"inventory_size": 16,
+								"container_type": "horse"
+							},
+							"minecraft:movement": {
+								"value": 0.175
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true,
+								"avoid_damage_blocks": true
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:nameable": {},
+							"minecraft:horse.jump_strength": {
+								"value": 0.5
+							},
+							"minecraft:leashable": {
+								"soft_distance": 4,
+								"hard_distance": 6,
+								"max_distance": 10
+							},
+							"minecraft:balloonable": {},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							}
+						},
+						"events": {
+							"minecraft:entity_spawned": {
+								"sequence": [
+									{
+										"randomize": [
+											{
+												"weight": 80,
+												"add": {
+													"component_groups": [
+														"minecraft:corolla"
+													]
+												}
+											}
+										]
+									},
+									{
+										"randomize": [
+											{
+												"add": {
+													"component_groups": [
+														"minecraft:blue"
+													]
+												}
+											},
+											{
+												"add": {
+													"component_groups": [
+														"minecraft:red"
+													]
+												}
+											}
+										]
+									}
+								]
+							},
+							"minecraft:donkey_saddled": {
+								"add": {
+									"component_groups": [
+										"minecraft:donkey_saddled"
+									]
+								}
+							},
+							"minecraft:donkey_unsaddled": {
+								"remove": {
+									"component_groups": [
+										"minecraft:donkey_saddled"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:ice_cream_truck",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"minecraft:corolla": {
+									"minecraft:is_tamed": {},
+									"minecraft:equippable": {
+										"slots": [
+											{
+												"slot": 0,
+												"item": "saddle",
+												"accepted_items": [
+													"saddle"
+												],
+												"on_equip": {
+													"event": "minecraft:donkey_saddled"
+												},
+												"on_unequip": {
+													"event": "minecraft:donkey_unsaddled"
+												}
+											}
+										]
+									},
+									"minecraft:rideable": {
+										"seat_count": 1,
+										"crouching_skip_interact": true,
+										"family_types": [
+											"player"
+										],
+										"interact_text": "Drive",
+										"seats": [
+											{
+												"position": [
+													0.6,
+													0.8,
+													0.7
+												]
+											}
+										]
+									}
+								},
+								"minecraft:donkey_saddled": {
+									"minecraft:is_saddled": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:can_power_jump": {}
+								},
+								"minecraft:blue": {
+									"minecraft:variant": {
+										"value": 0
+									}
+								},
+								"minecraft:red": {
+									"minecraft:variant": {
+										"value": 1
+									}
+								}
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "Math.Min(query.player_level * 7, 100)"
+								},
+								"minecraft:scale": {
+									"value": 1
+								},
+								"minecraft:type_family": {
+									"family": [
+										"aspire",
+										"mob"
+									]
+								},
+								"minecraft:collision_box": {
+									"width": 1.4,
+									"height": 1.6
+								},
+								"minecraft:health": {
+									"value": {
+										"range_min": 15,
+										"range_max": 30
+									}
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:inventory": {
+									"inventory_size": 16,
+									"container_type": "horse"
+								},
+								"minecraft:movement": {
+									"value": 0.175
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"avoid_damage_blocks": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:nameable": {},
+								"minecraft:horse.jump_strength": {
+									"value": 0.5
+								},
+								"minecraft:leashable": {
+									"soft_distance": 4,
+									"hard_distance": 6,
+									"max_distance": 10
+								},
+								"minecraft:balloonable": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"sequence": [
+										{
+											"randomize": [
+												{
+													"weight": 80,
+													"add": {
+														"component_groups": [
+															"minecraft:corolla"
+														]
+													}
+												}
+											]
+										},
+										{
+											"randomize": [
+												{
+													"add": {
+														"component_groups": [
+															"minecraft:blue"
+														]
+													}
+												},
+												{
+													"add": {
+														"component_groups": [
+															"minecraft:red"
+														]
+													}
+												}
+											]
+										}
+									]
+								},
+								"minecraft:donkey_saddled": {
+									"add": {
+										"component_groups": [
+											"minecraft:donkey_saddled"
+										]
+									}
+								},
+								"minecraft:donkey_unsaddled": {
+									"remove": {
+										"component_groups": [
+											"minecraft:donkey_saddled"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "aspire:ice_cream_truck",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:ice_cream_truck",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"minecraft:corolla": {
+									"minecraft:is_tamed": {},
+									"minecraft:equippable": {
+										"slots": [
+											{
+												"slot": 0,
+												"item": "saddle",
+												"accepted_items": [
+													"saddle"
+												],
+												"on_equip": {
+													"event": "minecraft:donkey_saddled"
+												},
+												"on_unequip": {
+													"event": "minecraft:donkey_unsaddled"
+												}
+											}
+										]
+									},
+									"minecraft:rideable": {
+										"seat_count": 1,
+										"crouching_skip_interact": true,
+										"family_types": [
+											"player"
+										],
+										"interact_text": "Drive",
+										"seats": [
+											{
+												"position": [
+													0.6,
+													0.8,
+													0.7
+												]
+											}
+										]
+									}
+								},
+								"minecraft:donkey_saddled": {
+									"minecraft:is_saddled": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:can_power_jump": {}
+								},
+								"minecraft:blue": {
+									"minecraft:variant": {
+										"value": 0
+									}
+								},
+								"minecraft:red": {
+									"minecraft:variant": {
+										"value": 1
+									}
+								}
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "Math.Min(query.player_level * 7, 100)"
+								},
+								"minecraft:scale": {
+									"value": 1
+								},
+								"minecraft:type_family": {
+									"family": [
+										"aspire",
+										"mob"
+									]
+								},
+								"minecraft:collision_box": {
+									"width": 1.4,
+									"height": 1.6
+								},
+								"minecraft:health": {
+									"value": {
+										"range_min": 15,
+										"range_max": 30
+									}
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:inventory": {
+									"inventory_size": 16,
+									"container_type": "horse"
+								},
+								"minecraft:movement": {
+									"value": 0.175
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"avoid_damage_blocks": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:nameable": {},
+								"minecraft:horse.jump_strength": {
+									"value": 0.5
+								},
+								"minecraft:leashable": {
+									"soft_distance": 4,
+									"hard_distance": 6,
+									"max_distance": 10
+								},
+								"minecraft:balloonable": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"sequence": [
+										{
+											"randomize": [
+												{
+													"weight": 80,
+													"add": {
+														"component_groups": [
+															"minecraft:corolla"
+														]
+													}
+												}
+											]
+										},
+										{
+											"randomize": [
+												{
+													"add": {
+														"component_groups": [
+															"minecraft:blue"
+														]
+													}
+												},
+												{
+													"add": {
+														"component_groups": [
+															"minecraft:red"
+														]
+													}
+												}
+											]
+										}
+									]
+								},
+								"minecraft:donkey_saddled": {
+									"add": {
+										"component_groups": [
+											"minecraft:donkey_saddled"
+										]
+									}
+								},
+								"minecraft:donkey_unsaddled": {
+									"remove": {
+										"component_groups": [
+											"minecraft:donkey_saddled"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"minecraft:corolla": {
+										"minecraft:is_tamed": {},
+										"minecraft:equippable": {
+											"slots": [
+												{
+													"slot": 0,
+													"item": "saddle",
+													"accepted_items": [
+														"saddle"
+													],
+													"on_equip": {
+														"event": "minecraft:donkey_saddled"
+													},
+													"on_unequip": {
+														"event": "minecraft:donkey_unsaddled"
+													}
+												}
+											]
+										},
+										"minecraft:rideable": {
+											"seat_count": 1,
+											"crouching_skip_interact": true,
+											"family_types": [
+												"player"
+											],
+											"interact_text": "Drive",
+											"seats": [
+												{
+													"position": [
+														0.6,
+														0.8,
+														0.7
+													]
+												}
+											]
+										}
+									},
+									"minecraft:donkey_saddled": {
+										"minecraft:is_saddled": {},
+										"minecraft:input_ground_controlled": {},
+										"minecraft:can_power_jump": {}
+									},
+									"minecraft:blue": {
+										"minecraft:variant": {
+											"value": 0
+										}
+									},
+									"minecraft:red": {
+										"minecraft:variant": {
+											"value": 1
+										}
+									}
+								},
+								"key": "minecraft:corolla",
+								"children": [
+									{
+										"key": "minecraft:is_tamed",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"key": "minecraft:equippable",
+										"is_minified": true,
+										"children": {
+											"slots": [
+												{
+													"slot": 0,
+													"item": "saddle",
+													"accepted_items": [
+														"saddle"
+													],
+													"on_equip": {
+														"event": "minecraft:donkey_saddled"
+													},
+													"on_unequip": {
+														"event": "minecraft:donkey_unsaddled"
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": {
+											"minecraft:is_tamed": {},
+											"minecraft:equippable": {
+												"slots": [
+													{
+														"slot": 0,
+														"item": "saddle",
+														"accepted_items": [
+															"saddle"
+														],
+														"on_equip": {
+															"event": "minecraft:donkey_saddled"
+														},
+														"on_unequip": {
+															"event": "minecraft:donkey_unsaddled"
+														}
+													}
+												]
+											},
+											"minecraft:rideable": {
+												"seat_count": 1,
+												"crouching_skip_interact": true,
+												"family_types": [
+													"player"
+												],
+												"interact_text": "Drive",
+												"seats": [
+													{
+														"position": [
+															0.6,
+															0.8,
+															0.7
+														]
+													}
+												]
+											}
+										},
+										"key": "minecraft:rideable",
+										"children": [
+											{
+												"data": "1",
+												"key": "seat_count"
+											},
+											{
+												"data": "true",
+												"key": "crouching_skip_interact"
+											},
+											{
+												"key": "family_types",
+												"is_minified": true,
+												"children": [
+													"player"
+												]
+											},
+											{
+												"data": "Drive",
+												"key": "interact_text"
+											},
+											{
+												"open": {
+													"seat_count": 1,
+													"crouching_skip_interact": true,
+													"family_types": [
+														"player"
+													],
+													"interact_text": "Drive",
+													"seats": [
+														{
+															"position": [
+																0.6,
+																0.8,
+																0.7
+															]
+														}
+													]
+												},
+												"key": "seats",
+												"children": [
+													{
+														"open": [
+															{
+																"position": [
+																	0.6,
+																	0.8,
+																	0.7
+																]
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"position": [
+																		0.6,
+																		0.8,
+																		0.7
+																	]
+																},
+																"key": "position",
+																"is_minified": true,
+																"children": [
+																	0.6,
+																	0.8,
+																	0.7
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:donkey_saddled",
+								"is_minified": true,
+								"children": {
+									"minecraft:is_saddled": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:can_power_jump": {}
+								}
+							},
+							{
+								"key": "minecraft:blue",
+								"is_minified": true,
+								"children": {
+									"minecraft:variant": {
+										"value": 0
+									}
+								}
+							},
+							{
+								"key": "minecraft:red",
+								"is_minified": true,
+								"children": {
+									"minecraft:variant": {
+										"value": 1
+									}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:ice_cream_truck",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"minecraft:corolla": {
+									"minecraft:is_tamed": {},
+									"minecraft:equippable": {
+										"slots": [
+											{
+												"slot": 0,
+												"item": "saddle",
+												"accepted_items": [
+													"saddle"
+												],
+												"on_equip": {
+													"event": "minecraft:donkey_saddled"
+												},
+												"on_unequip": {
+													"event": "minecraft:donkey_unsaddled"
+												}
+											}
+										]
+									},
+									"minecraft:rideable": {
+										"seat_count": 1,
+										"crouching_skip_interact": true,
+										"family_types": [
+											"player"
+										],
+										"interact_text": "Drive",
+										"seats": [
+											{
+												"position": [
+													0.6,
+													0.8,
+													0.7
+												]
+											}
+										]
+									}
+								},
+								"minecraft:donkey_saddled": {
+									"minecraft:is_saddled": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:can_power_jump": {}
+								},
+								"minecraft:blue": {
+									"minecraft:variant": {
+										"value": 0
+									}
+								},
+								"minecraft:red": {
+									"minecraft:variant": {
+										"value": 1
+									}
+								}
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "Math.Min(query.player_level * 7, 100)"
+								},
+								"minecraft:scale": {
+									"value": 1
+								},
+								"minecraft:type_family": {
+									"family": [
+										"aspire",
+										"mob"
+									]
+								},
+								"minecraft:collision_box": {
+									"width": 1.4,
+									"height": 1.6
+								},
+								"minecraft:health": {
+									"value": {
+										"range_min": 15,
+										"range_max": 30
+									}
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:inventory": {
+									"inventory_size": 16,
+									"container_type": "horse"
+								},
+								"minecraft:movement": {
+									"value": 0.175
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"avoid_damage_blocks": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:nameable": {},
+								"minecraft:horse.jump_strength": {
+									"value": 0.5
+								},
+								"minecraft:leashable": {
+									"soft_distance": 4,
+									"hard_distance": 6,
+									"max_distance": 10
+								},
+								"minecraft:balloonable": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"sequence": [
+										{
+											"randomize": [
+												{
+													"weight": 80,
+													"add": {
+														"component_groups": [
+															"minecraft:corolla"
+														]
+													}
+												}
+											]
+										},
+										{
+											"randomize": [
+												{
+													"add": {
+														"component_groups": [
+															"minecraft:blue"
+														]
+													}
+												},
+												{
+													"add": {
+														"component_groups": [
+															"minecraft:red"
+														]
+													}
+												}
+											]
+										}
+									]
+								},
+								"minecraft:donkey_saddled": {
+									"add": {
+										"component_groups": [
+											"minecraft:donkey_saddled"
+										]
+									}
+								},
+								"minecraft:donkey_unsaddled": {
+									"remove": {
+										"component_groups": [
+											"minecraft:donkey_saddled"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:experience_reward",
+								"is_minified": true,
+								"children": {
+									"on_death": "Math.Min(query.player_level * 7, 100)"
+								}
+							},
+							{
+								"open": {
+									"minecraft:experience_reward": {
+										"on_death": "Math.Min(query.player_level * 7, 100)"
+									},
+									"minecraft:scale": {
+										"value": 1
+									},
+									"minecraft:type_family": {
+										"family": [
+											"aspire",
+											"mob"
+										]
+									},
+									"minecraft:collision_box": {
+										"width": 1.4,
+										"height": 1.6
+									},
+									"minecraft:health": {
+										"value": {
+											"range_min": 15,
+											"range_max": 30
+										}
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:inventory": {
+										"inventory_size": 16,
+										"container_type": "horse"
+									},
+									"minecraft:movement": {
+										"value": 0.175
+									},
+									"minecraft:navigation.walk": {
+										"can_path_over_water": true,
+										"avoid_damage_blocks": true
+									},
+									"minecraft:movement.basic": {},
+									"minecraft:jump.static": {},
+									"minecraft:nameable": {},
+									"minecraft:horse.jump_strength": {
+										"value": 0.5
+									},
+									"minecraft:leashable": {
+										"soft_distance": 4,
+										"hard_distance": 6,
+										"max_distance": 10
+									},
+									"minecraft:balloonable": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									}
+								},
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"key": "minecraft:type_family",
+								"is_minified": true,
+								"children": {
+									"family": [
+										"aspire",
+										"mob"
+									]
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1.4,
+									"height": 1.6
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": {
+										"range_min": 15,
+										"range_max": 30
+									}
+								}
+							},
+							{
+								"key": "minecraft:hurt_on_condition",
+								"is_minified": true,
+								"children": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:inventory",
+								"is_minified": true,
+								"children": {
+									"inventory_size": 16,
+									"container_type": "horse"
+								}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0.175
+								}
+							},
+							{
+								"key": "minecraft:navigation.walk",
+								"is_minified": true,
+								"children": {
+									"can_path_over_water": true,
+									"avoid_damage_blocks": true
+								}
+							},
+							{
+								"key": "minecraft:movement.basic",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:jump.static",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:horse.jump_strength",
+								"is_minified": true,
+								"children": {
+									"value": 0.5
+								}
+							},
+							{
+								"key": "minecraft:leashable",
+								"is_minified": true,
+								"children": {
+									"soft_distance": 4,
+									"hard_distance": 6,
+									"max_distance": 10
+								}
+							},
+							{
+								"key": "minecraft:balloonable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:behavior.float",
+								"is_minified": true,
+								"children": {
+									"priority": 0
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"minecraft:entity_spawned": {
+								"sequence": [
+									{
+										"randomize": [
+											{
+												"weight": 80,
+												"add": {
+													"component_groups": [
+														"minecraft:corolla"
+													]
+												}
+											}
+										]
+									},
+									{
+										"randomize": [
+											{
+												"add": {
+													"component_groups": [
+														"minecraft:blue"
+													]
+												}
+											},
+											{
+												"add": {
+													"component_groups": [
+														"minecraft:red"
+													]
+												}
+											}
+										]
+									}
+								]
+							},
+							"minecraft:donkey_saddled": {
+								"add": {
+									"component_groups": [
+										"minecraft:donkey_saddled"
+									]
+								}
+							},
+							"minecraft:donkey_unsaddled": {
+								"remove": {
+									"component_groups": [
+										"minecraft:donkey_saddled"
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

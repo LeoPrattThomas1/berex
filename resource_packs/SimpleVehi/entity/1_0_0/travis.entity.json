@@ -1,0 +1,22 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "aspire:travis",
+            "materials": {"default": "aspire"},
+            "textures": {"default": "textures/entity/travis"},
+            "geometry": {"default": "geometry.travis"},
+            "spawn_egg": {"texture": "vehicles","texture_index": 16},
+            "animations": {
+				"move": "animation.ambulance.move"
+			},
+            "animation_controllers": [
+                { 
+				    "move": "controller.animation.vehicles.move"
+				}
+            ],
+            "render_controllers":
+    		["controller.render.corolla"]
+        }
+    }
+}

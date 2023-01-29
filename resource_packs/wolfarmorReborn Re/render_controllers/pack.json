@@ -1,0 +1,13 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.wolf_chest": {
+      "geometry": "Geometry.chest",
+      "part_visibility": [
+        { "*": "query.is_chested" }
+      ],
+      "materials": [ { "*": "Material.chest" } ],
+      "textures": [ "Texture.chest" ]
+    }
+  }
+}

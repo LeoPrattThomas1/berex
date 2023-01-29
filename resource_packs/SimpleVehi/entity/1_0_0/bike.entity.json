@@ -1,0 +1,38 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:bike",
+			"materials": {
+				"default": "witch"
+			},
+			"textures": {
+				"red": "textures/entity/bike",
+				"yellow": "textures/entity/bike/bike_yellow",
+				"green": "textures/entity/bike/bike_green",
+				"orange": "textures/entity/bike/bike_orange",
+				"white": "textures/entity/bike/bike_white",
+				"blue": "textures/entity/bike/bike_blue"
+			},
+			"geometry": {
+				"default": "geometry.bike"
+			},
+			"animations": {
+				"move": "animation.vehicles.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.bike"
+			],
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 32
+			}
+		}
+	}
+}

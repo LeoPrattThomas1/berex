@@ -1,0 +1,325 @@
+{
+	"entity_sounds": {
+		"entities": {
+
+
+			"lebronco:yellow1": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:yellow2": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:blue1": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:blue2": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:green1": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:green2": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:greena1": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:greena2": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:orange1": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:orange2": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:red1": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:red2": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:reda1": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			},
+			"lebronco:reda2": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.lebronco.drive",
+						"volume": 1.2,
+						"pitch": 1.1
+					},
+					"hurt" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		},
+               		"death" : {
+                  		"sound" : "vehicle.lebronco.hit",
+                  		"volume" : 1
+               		}
+				}
+			}
+
+
+
+
+
+
+
+
+
+		}
+	}
+}

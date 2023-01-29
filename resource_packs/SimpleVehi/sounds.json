@@ -1,0 +1,583 @@
+//bridge-file-version: #0
+{
+	"entity_sounds": {
+		"entities": {
+			"aspire:ambulance": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": "vehicles.sirene",
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:apv": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:bus_2": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:bus": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:c_sled": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": 0,
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:car": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:car4x4_1": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:corolla": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:fire_truck": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": "vehicles.sirene",
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:helicopter": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": "vehicles.helicopter",
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:limmo": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:mini_bus": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:motor_bike": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": "motor.drive",
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:ford_mustang_blue": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:police_car": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": "vehicles.police_car",
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:speedboat": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:taxi": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:tesla_truck": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:truck": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:jeep_ph": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:travis": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:tractor": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:pajero": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:tesla": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:car_lowrider": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:ae86": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:pick_up_truck": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:ob_van": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:modern_jeep_ph": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": "vehicles.hit",
+					"step": "vehicles.drive",
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:tank": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": 0,
+					"step": 0,
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:opel_corsa": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": 0,
+					"step": 0,
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:opel_astral": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": 0,
+					"step": 0,
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:volkswagen_beetle": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": 0,
+					"step": 0,
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:cadillac_dts_2010": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": 0,
+					"step": 0,
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:ice_cream_truck": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": 0,
+					"step": 0,
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			},
+			"aspire:honda_accord_2019": {
+				"volume": 0.7,
+				"pitch": [
+					1,
+					0.9
+				],
+				"events": {
+					"mad": 0,
+					"ambient": {},
+					"hurt": 0,
+					"step": 0,
+					"death": "random.explode",
+					"saddle": "vehicles.saddled",
+					"flap": 0
+				}
+			}
+		}
+	}
+}

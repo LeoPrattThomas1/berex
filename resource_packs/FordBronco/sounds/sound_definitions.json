@@ -1,0 +1,23 @@
+{
+	"vehicle.lebronco.drive": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/lebronco/drive"
+		]
+	},
+	"vehicle.lebronco.startup": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/lebronco/startup"
+		]
+	},
+	"vehicle.lebronco.hit" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "neutral",
+         "sounds" : [
+            "sounds/lebronco/hit1",
+            "sounds/lebronco/hit2",
+            "sounds/lebronco/hit3"
+        ]
+    }
+}

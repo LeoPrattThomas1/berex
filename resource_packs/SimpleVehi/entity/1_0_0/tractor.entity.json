@@ -1,0 +1,25 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:tractor",
+			"materials": {
+				"default": "aspire"
+			},
+			"textures": {
+				"default": "textures/entity/tractor"
+			},
+			"geometry": {
+				"default": "geometry.tractor"
+			},
+			"render_controllers": [
+				"controller.render.tractor"
+			],
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 22
+			}
+		}
+	}
+}

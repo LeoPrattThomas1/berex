@@ -1,0 +1,1 @@
+playanimation @a[r=1.5] animation.player.ash_bugatti.drive controller.animation.player.base 0 "!query.is_riding"

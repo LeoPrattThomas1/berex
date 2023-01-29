@@ -1,0 +1,35 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:cadillac_dts_2010",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/cadillac_dts_2010"
+			},
+			"geometry": {
+				"default": "geometry.cadillac_dts_2010"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 38
+			},
+			"render_controllers": [
+				"controller.render.corolla"
+			],
+			"animations": {
+				"move": "animation.cadillac_dts_2010.move"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_distance_moved"
+					}
+				]
+			}
+		}
+	}
+}

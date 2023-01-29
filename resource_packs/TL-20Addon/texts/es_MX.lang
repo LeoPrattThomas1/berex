@@ -1,0 +1,10 @@
+﻿## Comments can be added anywhere on a valid line by starting with '##'
+##
+## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
+## comment on the same line, use TABs.
+accessibility.disableTTS=Text To Speech disabled
+accessibility.enableTTS=Text To Speech enabled
+
+
+item.spawn_egg.entity.tl:20.name=TL-20
+item.tl:20_spawn.name=TL-20 Spawn(no funcional)

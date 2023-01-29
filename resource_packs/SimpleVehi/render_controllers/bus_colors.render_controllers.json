@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.bus_colors": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.skins[query.ariant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.grey",
+						"Texture.red",
+						"Texture.yellow",
+						"Texture.blue"
+					]
+				}
+			}
+		}
+	}
+}

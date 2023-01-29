@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.ashminggu_dmc_seat": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"riding": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function ash_bugattiseat"
+					]
+				},
+				"riding": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function ash_bugattiseat"
+					]
+				}
+			}
+		}
+	}
+}

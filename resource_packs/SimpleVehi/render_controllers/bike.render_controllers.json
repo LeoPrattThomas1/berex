@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.bike": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.red",
+						"Texture.yellow",
+						"Texture.green",
+						"Texture.orange",
+						"Texture.white",
+						"Texture.blue"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.skins[query.variant]"
+			]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.plane.fly": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flying": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function plane"
+					]
+				},
+				"flying": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function plane"
+					]
+				}
+			}
+		}
+	}
+}

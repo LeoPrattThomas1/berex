@@ -1,0 +1,36 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "aspire:bus",
+			"materials": {
+				"default": "witch"
+			},
+			"textures": {
+				"grey": "textures/entity/bus",
+				"red": "textures/entity/bus/bus_red",
+				"yellow": "textures/entity/bus/bus_yellow",
+				"blue": "textures/entity/bus/bus_blue"
+			},
+			"geometry": {
+				"default": "geometry.bus"
+			},
+			"spawn_egg": {
+				"texture": "vehicles",
+				"texture_index": 2
+			},
+			"animations": {
+				"move": "animation.vehicles.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vehicles.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.bus_colors"
+			]
+		}
+	}
+}

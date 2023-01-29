@@ -1,0 +1,19 @@
+{
+	"entity_sounds": {
+		"entities": {
+	   		"car:q12s": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "kart.spawn",
+				"step": "kart.drive",
+				"ride": "kart.door_close",
+				"saddle": "kart.saddled"
+				}
+			}
+      }
+   }
+}

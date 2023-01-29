@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "add:wolfarmoriron",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "wolfarmoriron",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

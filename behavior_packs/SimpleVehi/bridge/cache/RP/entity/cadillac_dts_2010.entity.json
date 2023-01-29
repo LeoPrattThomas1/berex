@@ -1,0 +1,402 @@
+{
+	"file_path": "C:\\Users\\User\\Desktop\\Ronnel\\Add-ons\\games\\com.mojang\\development_resource_packs\\SimpleVehiR3\\entity\\cadillac_dts_2010.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "1075f8d2_3dec_4c0a_839a_d78b801abd9e",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:cadillac_dts_2010",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"default": "textures/entity/cadillac_dts_2010"
+							},
+							"geometry": {
+								"default": "geometry.cadillac_dts_2010"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 38
+							},
+							"render_controllers": [
+								"controller.render.corolla"
+							],
+							"animations": {
+								"move": "animation.cadillac_dts_2010.move"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"move": "query.modified_distance_moved"
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "aspire:cadillac_dts_2010",
+							"materials": {
+								"default": "entity_emissive_alpha"
+							},
+							"textures": {
+								"default": "textures/entity/cadillac_dts_2010"
+							},
+							"geometry": {
+								"default": "geometry.cadillac_dts_2010"
+							},
+							"spawn_egg": {
+								"texture": "vehicles",
+								"texture_index": 38
+							},
+							"render_controllers": [
+								"controller.render.corolla"
+							],
+							"animations": {
+								"move": "animation.cadillac_dts_2010.move"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"move": "query.modified_distance_moved"
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "aspire:cadillac_dts_2010",
+								"materials": {
+									"default": "entity_emissive_alpha"
+								},
+								"textures": {
+									"default": "textures/entity/cadillac_dts_2010"
+								},
+								"geometry": {
+									"default": "geometry.cadillac_dts_2010"
+								},
+								"spawn_egg": {
+									"texture": "vehicles",
+									"texture_index": 38
+								},
+								"render_controllers": [
+									"controller.render.corolla"
+								],
+								"animations": {
+									"move": "animation.cadillac_dts_2010.move"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"move": "query.modified_distance_moved"
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "aspire:cadillac_dts_2010",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/cadillac_dts_2010"
+									},
+									"geometry": {
+										"default": "geometry.cadillac_dts_2010"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 38
+									},
+									"render_controllers": [
+										"controller.render.corolla"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"data": "aspire:cadillac_dts_2010",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "aspire:cadillac_dts_2010",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/cadillac_dts_2010"
+									},
+									"geometry": {
+										"default": "geometry.cadillac_dts_2010"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 38
+									},
+									"render_controllers": [
+										"controller.render.corolla"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_emissive_alpha"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:cadillac_dts_2010",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/cadillac_dts_2010"
+									},
+									"geometry": {
+										"default": "geometry.cadillac_dts_2010"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 38
+									},
+									"render_controllers": [
+										"controller.render.corolla"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/cadillac_dts_2010"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:cadillac_dts_2010",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/cadillac_dts_2010"
+									},
+									"geometry": {
+										"default": "geometry.cadillac_dts_2010"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 38
+									},
+									"render_controllers": [
+										"controller.render.corolla"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.cadillac_dts_2010"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:cadillac_dts_2010",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/cadillac_dts_2010"
+									},
+									"geometry": {
+										"default": "geometry.cadillac_dts_2010"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 38
+									},
+									"render_controllers": [
+										"controller.render.corolla"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "vehicles",
+									"texture_index": 38
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.corolla"
+								]
+							},
+							{
+								"open": {
+									"identifier": "aspire:cadillac_dts_2010",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/cadillac_dts_2010"
+									},
+									"geometry": {
+										"default": "geometry.cadillac_dts_2010"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 38
+									},
+									"render_controllers": [
+										"controller.render.corolla"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.cadillac_dts_2010.move"
+								}
+							},
+							{
+								"open": {
+									"identifier": "aspire:cadillac_dts_2010",
+									"materials": {
+										"default": "entity_emissive_alpha"
+									},
+									"textures": {
+										"default": "textures/entity/cadillac_dts_2010"
+									},
+									"geometry": {
+										"default": "geometry.cadillac_dts_2010"
+									},
+									"spawn_egg": {
+										"texture": "vehicles",
+										"texture_index": 38
+									},
+									"render_controllers": [
+										"controller.render.corolla"
+									],
+									"animations": {
+										"move": "animation.cadillac_dts_2010.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_distance_moved"
+											}
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"move": "query.modified_distance_moved"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"move": "query.modified_distance_moved"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"move": "query.modified_distance_moved"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

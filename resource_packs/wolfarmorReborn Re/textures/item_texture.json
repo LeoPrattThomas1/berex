@@ -1,0 +1,35 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "wolfarmoriron": {
+      "textures": "textures/items/wolf_iron"
+    },
+    "wolfarmorgold": {
+      "textures": "textures/items/wolf_gold"
+    },
+    "wolfarmordiamond": {
+      "textures": "textures/items/wolf_diamond"
+    },
+    "wolfarmorchain": {
+      "textures": "textures/items/wolf_chain"
+    },
+    "wolfarmornetherite": {
+      "textures": "textures/items/wolf_netherite"
+    },
+    "horsenether": {
+      "textures": "textures/items/horsenether"
+    },
+    "bkit": {
+      "textures": [
+        "textures/items/iron",
+        "textures/items/diam",
+        "textures/items/gold",
+        "textures/items/obs",
+        "textures/items/gra",
+        "textures/items/lapis",
+        "textures/items/red"
+      ]
+    }
+  }
+}

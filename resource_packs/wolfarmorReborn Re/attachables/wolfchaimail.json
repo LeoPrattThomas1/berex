@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:wolfarmorchain",
+      "item": { "add:wolfarmorchain": "query.owner_identifier == 'minecraft:wolf'" },
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/wolf/chain",
+        "second": "textures/entity/wolf/chain2"
+      },
+      "geometry": {
+        "default": "geometry.wolfarmor"
+      },
+      "render_controllers": [ "controller.render.wolf_armor" ]
+    }
+  }
+}

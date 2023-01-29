@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "add:wolfarmorchain",
+      "category": "Equipment",
+      "lore": "Wolf.set"
+    },
+
+    "components": {
+      "minecraft:icon": "wolfarmorchain",
+      "minecraft:description": "wolf.armor",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

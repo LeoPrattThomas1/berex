@@ -1,0 +1,22 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.dirt_bike": {
+            "arrays": {
+                "textures": {
+                    "Array.skins": [
+                        "Texture.red",
+						"Texture.black",
+						"Texture.white",
+                        "Texture.blue",
+						"Texture.purple",
+						"Texture.yellow"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [ { "*": "Material.default" } ],
+            "textures": [ "Array.skins[query.variant]" ]
+        }
+    }
+}

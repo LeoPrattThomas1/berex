@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.riding.arms": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [-80, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"leftArm": {
+					"rotation": [-80, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"body": {
+					"rotation": [10, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"head": {
+					"position": [0, 0, 0]
+				},
+				"hat": {
+					"position": [0, 0, 0]
+				},
+				"rightLeg": {
+					"rotation": [-90, 5, 0],
+					"position": [0, 0, 1]
+				},
+				"leftLeg": {
+					"rotation": [-90, -5, 0],
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.player.riding.arms.zombie": {
+			"loop": true
+		},
+		"animation.player.riding.legs": {
+			"loop": true
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "aspire:truck",
+            "materials": {
+                "default": "aspire"
+            },
+            "textures": {
+                "default": "textures/entity/truck"
+            },
+            "geometry": {
+                "default": "geometry.truck"
+            },
+            "spawn_egg": {
+                "texture": "vehicles",
+                "texture_index": 15
+            },
+            "animations": {
+                "move": "animation.vehicles.move",
+				"look_at_target": "animation.vehicles.walk"
+            },
+            "animation_controllers": [
+                { 
+				    "move": "controller.animation.vehicles.move"
+				},
+				{ 
+					"look_at_target": "controller.animation.humanoid.look_at_target" 
+				}
+            ],
+            "render_controllers":
+    		[
+                "controller.render.bus"
+            ]
+        }
+    }
+}

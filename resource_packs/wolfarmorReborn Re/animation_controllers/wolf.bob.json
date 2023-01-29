@@ -1,0 +1,25 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+	  "controller.animation.wolf.bob" : {
+			"initial_state" : "default",
+			"states" : {
+				"bobing" : {
+					"animations" : [ "bob" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_chested"
+						}
+					]
+				},
+				"default" : {
+					"transitions" : [
+						{
+							"bobing" : "query.is_chested"
+						}
+					]
+				}
+			}
+		}
+  }
+}

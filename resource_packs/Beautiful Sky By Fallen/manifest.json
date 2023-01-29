@@ -1,0 +1,44 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§3Thank you for downloading the beautiful sky pack! Please do not redistribute pack and please link the original pack to MCPEDL.
+    
+    §rThank you for all the support and feel free to check out my social media!
+    
+    §l§4YouTube: FallenAngel14
+    §l§5Twitch: xfallenangel14x
+    §l§dInstagram: xfallenangel14x
+    §l§b Twitter: Fallen120101",
+    "name": "§l§bBeautiful Sky By §5Fallen",
+    "uuid": "1e14280a-5ae2-4992-ae9c-ef81af372903",
+    "version": [
+      2,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      13,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "§3Thank you for downloading the beautiful sky pack! Please do not redistribute pack and please link the original pack to MCPEDL.
+    
+    §rThank you for all the support and feel free to check out my social media!
+    
+    §l§4YouTube: FallenAngel14
+    §l§5Twitch: xfallenangel14x
+    §l§dInstagram: xfallenangel14x
+    §l§b Twitter: Fallen120101",
+      "type": "resources",
+      "uuid": "35c9ac3d-46ae-40eb-ac43-83dd7a73a0c1",
+      "version": [
+        2,
+        0,
+        1
+      ]
+    }
+  ]
+}
